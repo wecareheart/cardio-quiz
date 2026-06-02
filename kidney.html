@@ -67,7 +67,7 @@ function ansText(q){return '答案：'+q.answer;}
 function qCard(q){
  const e=E[q.id];
  const chips=['<span class="chip y">民國'+q.roc_year+'</span>','<span class="chip">'+esc(q.src)+'</span>','<span class="chip t">'+esc(q.topic)+'</span>'];
- if(e)chips.push('<span class="chip d">有詳解</span>');
+ 
  let opts='';for(const k of ['A','B','C','D','E']){if(q.options[k]!==undefined)opts+='<div class="opt"><b>('+k+')</b>'+esc(q.options[k])+'</div>';}
  const img=q.img?'<img class="fig" src="'+q.img+'" alt="附圖" onclick="this.classList.toggle(\'big\')">':'';
  let det='';
