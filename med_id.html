@@ -49,9 +49,11 @@
 
 /* RWD-mobile-fix */
 #imq{overflow-x:hidden}
+#imq select,#imq input{min-width:0;max-width:100%;box-sizing:border-box}
 #imq .ctrl{flex-wrap:wrap}
-#imq .ctrl select,#imq .ctrl input{min-width:0;max-width:100%}
-@media(max-width:560px){#imq{padding:12px 10px}#imq .hd h1{font-size:1.25rem}#imq .ctrl{gap:6px}#imq .ctrl select,#imq .ctrl input,#imq .ctrl .btn{flex:1 1 100%;width:100%}}
+#imq .stem,#imq .opt,#imq .oa,#imq .lec,#imq .qk,#imq .bg,#imq .oabox,#imq .src2,#imq .grp{overflow-wrap:anywhere;word-break:break-word}
+#imq table{width:100%;max-width:100%}#imq td,#imq th{word-break:break-word}
+@media(max-width:560px){#imq{padding:12px 10px}#imq .hd h1{font-size:1.25rem}#imq .ctrl{gap:6px}#imq .ctrl select,#imq .ctrl input,#imq .ctrl .btn,#imq .ctrl button{flex:1 1 100%;width:100%}}
 </style></head>
 <body><div id="imq">
 <div class="hd"><h1>醫師國考 醫學(三) · 感染科題庫</h1>
