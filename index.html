@@ -61,6 +61,14 @@ footer{max-width:980px;margin:18px auto;padding:16px;color:var(--mut);font-size:
 .stats .bar{height:8px;background:#e2e8f0;border-radius:6px;margin-top:8px;overflow:hidden}.stats .bar>i{display:block;height:100%;background:#15803d;width:0}
 .itbtn{border:1px solid #cbd5e1;background:#fff;border-radius:20px;padding:5px 13px;font-size:13px;cursor:pointer}
 .itbtn.on{background:#334155;color:#fff;border-color:#334155}.itbtn.warn{border-color:#dc2626;color:#b91c1c}
+
+/* RWD-mobile-fix */
+html,body{overflow-x:hidden}
+.wrap{max-width:100%}
+.toolbar select,.toolbar input{min-width:0;max-width:100%;box-sizing:border-box}
+.q,.stem,.opt,.oa,.lec,.grp,.bg,.qk{overflow-wrap:anywhere;word-break:break-word}
+table{width:100%;max-width:100%}td,th{word-break:break-word}
+@media(max-width:560px){.wrap{padding:12px 10px}.toolbar{gap:6px;padding:10px}.toolbar select,.toolbar input{flex:1 1 100%;width:100%}}
 </style></head><body>
 <header><h1>心臟內科國考題庫（詳解版）· 醫師國考 醫學(三)</h1>
 <div class="sub">民國101–115年（2012–2026）· 依題幹主題分類 · 共 <b id="total"></b> 題（附詳解 <b id="exn"></b> 題）｜「分主題」最上方有<b>複習講義</b>｜來源：考選部</div></header>
