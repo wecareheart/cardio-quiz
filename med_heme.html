@@ -46,6 +46,14 @@
 #imq .lec p,#imq .lec li{font-size:.92rem;line-height:1.7}
 #imq .lec ul{margin:4px 0;padding-left:20px}
 .opt{cursor:pointer;border-radius:7px;transition:background .12s}.opt:hover{background:#f2f5f9}.q.done .opt{cursor:default}.opt.pick{outline:2px solid #888}.opt.right{background:#d6f5e0;font-weight:600}.opt.wrong{background:#fde2e1;font-weight:600}.result{display:none;margin-top:10px;padding:8px 14px;border-radius:8px;font-weight:700;font-size:1.02rem}.result.ok{display:inline-block;background:#e9f7ef;color:#1d7a46;border:1px solid #1d7a46}.result.bad{display:inline-block;background:#fdecea;color:#c0392b;border:1px solid #c0392b}.stats{max-width:680px;margin:10px auto 2px;background:#f3f6f9;border:1px solid #dde4ec;border-radius:10px;padding:10px 14px;text-align:center;color:#334;font-size:.95rem}.stats b{color:#111;font-size:1.05rem}.stats .bar{height:8px;background:#e6ebf1;border-radius:6px;margin-top:8px;overflow:hidden}.stats .bar>i{display:block;height:100%;background:#1d7a46;width:0}.btn.on{background:#334;color:#fff;border-color:#334}.btn.warn{border-color:#d9534f;color:#b52b27}
+
+/* RWD-mobile-fix */
+#imq{overflow-x:hidden}
+#imq select,#imq input{min-width:0;max-width:100%;box-sizing:border-box}
+#imq .ctrl{flex-wrap:wrap}
+#imq .stem,#imq .opt,#imq .oa,#imq .lec,#imq .qk,#imq .bg,#imq .oabox,#imq .src2,#imq .grp{overflow-wrap:anywhere;word-break:break-word}
+#imq table{width:100%;max-width:100%}#imq td,#imq th{word-break:break-word}
+@media(max-width:560px){#imq{padding:12px 10px}#imq .hd h1{font-size:1.25rem}#imq .ctrl{gap:6px}#imq .ctrl select,#imq .ctrl input,#imq .ctrl .btn,#imq .ctrl button{flex:1 1 100%;width:100%}}
 </style></head>
 <body><div id="imq">
 <div class="hd"><h1>醫師國考 醫學(三) · 血液腫瘤內科題庫</h1>
