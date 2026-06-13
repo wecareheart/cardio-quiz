@@ -62,6 +62,14 @@
 #imq .stats b{color:#78350f;font-size:1.05rem}
 #imq .stats .bar{height:8px;background:#eee5dd;border-radius:6px;margin-top:8px;overflow:hidden}
 #imq .stats .bar>i{display:block;height:100%;background:linear-gradient(90deg,#92400e,#78350f);width:0}
+
+/* RWD-mobile-fix */
+#imq{overflow-x:hidden}
+#imq select,#imq input{min-width:0;max-width:100%;box-sizing:border-box}
+#imq .ctrl{flex-wrap:wrap}
+#imq .stem,#imq .opt,#imq .oa,#imq .lec,#imq .qk,#imq .bg,#imq .oabox,#imq .src2,#imq .grp{overflow-wrap:anywhere;word-break:break-word}
+#imq table{width:100%;max-width:100%}#imq td,#imq th{word-break:break-word}
+@media(max-width:560px){#imq{padding:12px 10px}#imq .hd h1{font-size:1.25rem}#imq .ctrl{gap:6px}#imq .ctrl select,#imq .ctrl input,#imq .ctrl .btn,#imq .ctrl button{flex:1 1 100%;width:100%}}
 </style></head>
 <body><div id="imq">
 <div class="hd"><h1>護理師國考 · 護理（二）基本護理學與護理行政 — 專業角色法律與倫理 題庫</h1>
