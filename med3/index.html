@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>醫學三 國考題庫整合系統｜高醫心臟內科 劉宜學醫師</title>
+<style>
+:root{
+  --bg:#f4f6f9; --card:#ffffff; --ink:#1f2937; --mut:#6b7280; --line:#e5e7eb;
+  --brand:#0d5c63; --brand2:#0a4a50; --accent:#c0392b;
+  --ok:#16a34a; --okbg:#e9f7ef; --bad:#dc2626; --badbg:#fdecea;
+  --bg-quick:#e8f6ee; --bg-quickb:#16a34a; --bg-bgk:#fdf2e2; --bg-bgkb:#d97706;
+  --bg-opt:#ece9fb; --bg-optb:#6d28d9; --shadow:0 1px 3px rgba(16,24,40,.08),0 1px 2px rgba(16,24,40,.04);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  background:var(--bg); color:var(--ink); line-height:1.65; -webkit-text-size-adjust:100%;}
+a{color:var(--brand)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+.hidden{display:none!important}
+button{font-family:inherit;cursor:pointer}
+/* top bar */
+header.top{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;padding:14px 0;position:sticky;top:0;z-index:50;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+header.top .wrap{display:flex;align-items:center;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;cursor:pointer}
+.logo .mk{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-size:20px}
+.logo h1{font-size:17px;margin:0;font-weight:800;letter-spacing:.3px}
+.logo small{display:block;font-size:11px;opacity:.85;font-weight:500}
+.navbtns{margin-left:auto;display:flex;gap:6px}
+.navbtns button{background:rgba(255,255,255,.14);color:#fff;border:0;border-radius:8px;padding:8px 12px;font-size:13px;font-weight:600;transition:.15s}
+.navbtns button:hover{background:rgba(255,255,255,.26)}
+.navbtns button.on{background:#fff;color:var(--brand)}
+/* generic */
+.section{padding:22px 0 60px}
+h2.title{font-size:20px;margin:6px 0 4px;font-weight:800}
+.sub{color:var(--mut);font-size:13px;margin:0 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.btn{border:0;border-radius:10px;padding:11px 18px;font-size:14px;font-weight:700;background:var(--brand);color:#fff;transition:.15s}
+.btn:hover{filter:brightness(1.07)}
+.btn.lg{padding:14px 26px;font-size:15px}
+.btn.ghost{background:#fff;color:var(--brand);border:1.5px solid var(--brand)}
+.btn.gray{background:#eef1f4;color:#374151}
+.btn.danger{background:#fff;color:var(--bad);border:1.5px solid #f0b4b0}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+/* dashboard hero stats */
+.statrow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;box-shadow:var(--shadow)}
+.stat .v{font-size:26px;font-weight:800;color:var(--brand)}
+.stat .l{font-size:12px;color:var(--mut);margin-top:2px}
+.bar{height:8px;background:#eceff3;border-radius:99px;overflow:hidden}
+.bar > i{display:block;height:100%;border-radius:99px;transition:width .5s}
+/* subject grid */
+.sgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.subj{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow);cursor:pointer;transition:.16s;border-left:5px solid var(--c);position:relative;overflow:hidden}
+.subj:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(16,24,40,.10)}
+.subj .badge{width:40px;height:40px;border-radius:11px;background:var(--c);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;float:left;margin-right:12px}
+.subj h3{margin:0;font-size:16px;font-weight:800}
+.subj .meta{font-size:12px;color:var(--mut);margin-top:1px}
+.subj .pgwrap{clear:both;margin-top:12px;display:flex;align-items:center;gap:10px}
+.subj .pgwrap .bar{flex:1}
+.subj .pct{font-size:12px;font-weight:700;color:var(--ink);min-width:96px;text-align:right}
+/* actions row */
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}
+/* setup form */
+.fld{margin-bottom:18px}
+.fld > label{display:block;font-size:13px;font-weight:700;margin-bottom:8px;color:#374151}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;font-size:13px;font-weight:600;color:#374151;transition:.13s}
+.chip.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.chip.sc.on{background:var(--c);border-color:var(--c)}
+select,input[type=number]{font-family:inherit;font-size:14px;padding:9px 11px;border:1.5px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);width:100%}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+/* quiz */
+.qtop{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.qtop .prog{flex:1;min-width:140px}
+.qtop .prog .bar{margin-top:6px}
+.pill{font-size:12px;font-weight:700;padding:4px 10px;border-radius:999px;background:#eef1f4;color:#374151}
+.pill.c{background:var(--c);color:#fff}
+.qcard{padding:20px}
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.qhead .tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;background:#f1f3f6;color:#4b5563}
+.tag.c{background:color-mix(in srgb,var(--c) 14%,#fff);color:var(--c)}
+.stem{font-size:16px;font-weight:600;margin:6px 0 14px;white-space:pre-wrap}
+.qimg{margin:0 0 14px;text-align:center}
+.qimg img{max-width:100%;border:1px solid var(--line);border-radius:10px}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{display:flex;gap:11px;align-items:flex-start;border:1.6px solid var(--line);border-radius:11px;padding:12px 14px;background:#fff;transition:.12s;text-align:left;font-size:15px;color:var(--ink);width:100%}
+.opt:hover{border-color:var(--c);background:color-mix(in srgb,var(--c) 5%,#fff)}
+.opt .k{font-weight:800;color:var(--c);min-width:20px}
+.opt.sel{border-color:var(--c);background:color-mix(in srgb,var(--c) 10%,#fff);box-shadow:inset 0 0 0 1px var(--c)}
+.opt.correct{border-color:var(--ok);background:var(--okbg)} .opt.correct .k{color:var(--ok)}
+.opt.wrong{border-color:var(--bad);background:var(--badbg)} .opt.wrong .k{color:var(--bad)}
+.opt[disabled]{cursor:default}
+.qnav{display:flex;justify-content:space-between;gap:10px;margin-top:18px}
+.palette{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.pdot{width:34px;height:34px;border-radius:8px;border:1.5px solid var(--line);background:#fff;font-size:12px;font-weight:700;color:#6b7280}
+.pdot.done{background:var(--c);color:#fff;border-color:var(--c)}
+.pdot.cur{outline:3px solid color-mix(in srgb,var(--c) 35%,#fff)}
+.pdot.mark{box-shadow:inset 0 -4px 0 #f59e0b}
+/* explanation */
+.exp{margin-top:14px;border-top:1px dashed var(--line);padding-top:14px}
+.exb{border-radius:11px;padding:13px 15px;margin-bottom:11px;font-size:14.5px}
+.exb h4{margin:0 0 6px;font-size:13px;font-weight:800;letter-spacing:.3px;display:flex;align-items:center;gap:7px}
+.exb.quick{background:var(--bg-quick);border:1px solid color-mix(in srgb,var(--bg-quickb) 25%,#fff)} .exb.quick h4{color:var(--bg-quickb)}
+.exb.bgk{background:var(--bg-bgk);border:1px solid color-mix(in srgb,var(--bg-bgkb) 25%,#fff)} .exb.bgk h4{color:var(--bg-bgkb)}
+.exb.opt{background:var(--bg-opt);border:1px solid color-mix(in srgb,var(--bg-optb) 22%,#fff)} .exb.opt h4{color:var(--bg-optb)}
+.exb.opt .oi{margin-bottom:5px} .exb.opt .oi b{color:var(--bg-optb)}
+.srcs{font-size:12.5px;color:var(--mut);margin-top:4px}
+.srcs b{color:#374151}
+.statusbox{font-size:13px;font-weight:700;padding:8px 12px;border-radius:8px;background:#fff7ed;color:#9a3412;border:1px solid #fed7aa;margin-bottom:12px}
+/* result */
+.scoreHero{text-align:center;padding:26px 18px}
+.ring{width:128px;height:128px;margin:0 auto 12px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:conic-gradient(var(--ok) calc(var(--p)*1%), #e7eaef 0);position:relative}
+.ring::before{content:"";position:absolute;inset:11px;border-radius:50%;background:#fff}
+.ring .num{position:relative;font-size:30px;font-weight:800;color:var(--ink)}
+.ring .num small{display:block;font-size:12px;color:var(--mut);font-weight:600}
+.reslist .ritem{border:1px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden;background:#fff}
+.reshd{display:flex;gap:10px;align-items:flex-start;padding:13px 15px;cursor:pointer}
+.reshd .mk{width:22px;height:22px;border-radius:6px;flex:none;color:#fff;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.reshd .mk.ok{background:var(--ok)} .reshd .mk.no{background:var(--bad)}
+.reshd .qt{font-size:14px;font-weight:600;flex:1}
+.reshd .yn{font-size:12px;color:var(--mut);margin-top:3px}
+.reshd .chev{color:var(--mut);font-size:13px}
+.resbody{padding:0 15px 15px;border-top:1px solid var(--line)}
+.legend{font-size:13px;color:var(--mut);margin:6px 0 16px}
+.empty{text-align:center;color:var(--mut);padding:50px 20px}
+.empty .big{font-size:40px;margin-bottom:8px}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--mut);font-size:12px;text-align:center;background:#fff}
+.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#111827;color:#fff;padding:11px 18px;border-radius:10px;font-size:13.5px;font-weight:600;z-index:200;opacity:0;transition:.25s;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.toast.show{opacity:1}
+@media(max-width:640px){
+  .statrow{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:1fr}
+  .row2{grid-template-columns:1fr}
+  .logo h1{font-size:15px}
+  .navbtns button{padding:7px 9px;font-size:12px}
+  .qcard{padding:15px}
+  .stem{font-size:15px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="logo" onclick="go('home')">
+      <div class="mk">🫀</div>
+      <div><h1>醫學三 國考題庫整合系統</h1><small>內科・家醫等次專科 ｜ 民國101–115年 ｜ 共 <span id="hdrTotal">—</span> 題</small></div>
+    </div>
+    <div class="navbtns">
+      <button id="nav-home" onclick="go('home')">儀表板</button>
+      <button id="nav-setup" onclick="go('setup')">開始測驗</button>
+      <button id="nav-review" onclick="go('review')">複習</button>
+    </div>
+  </div>
+</header>
+
+<!-- HOME / DASHBOARD -->
+<section id="view-home" class="section">
+  <div class="wrap">
+    <h2 class="title">學習儀表板</h2>
+    <p class="sub">追蹤你的整體進度與各科答對率。資料僅儲存在此瀏覽器（不需登入）。</p>
+    <div class="statrow" id="heroStats"></div>
+    <div class="actions">
+      <button class="btn lg" onclick="go('setup')">＋ 開始新測驗</button>
+      <button class="btn ghost" onclick="startWrongReview()">錯題複習</button>
+      <button class="btn gray" onclick="exportProg()">匯出進度</button>
+      <button class="btn danger" onclick="resetProg()">重置進度</button>
+    </div>
+    <h2 class="title" style="font-size:16px">各科進度</h2>
+    <p class="sub">點科目卡片可直接針對該科出題，或瀏覽全部題目複習。</p>
+    <div class="sgrid" id="subjGrid"></div>
+  </div>
+</section>
+
+<!-- SETUP -->
+<section id="view-setup" class="section hidden">
+  <div class="wrap">
+    <h2 class="title">測驗設定</h2>
+    <p class="sub">選擇科目、年份、主題與題數，系統會抽題組成一份測驗。作答完成後計分並逐題檢討。</p>
+    <div class="card" style="padding:20px">
+      <div class="fld">
+        <label>科目（可複選）</label>
+        <div class="chips" id="suSubjects"></div>
+      </div>
+      <div class="fld">
+        <label>主題範圍（依所選科目）</label>
+        <div class="chips" id="suTopics"></div>
+      </div>
+      <div class="row2">
+        <div class="fld">
+          <label>年份</label>
+          <select id="suYear"></select>
+        </div>
+        <div class="fld">
+          <label>出題範圍</label>
+          <select id="suScope">
+            <option value="all">全部題目</option>
+            <option value="unseen">只考「沒做過」的題目</option>
+            <option value="wrong">只考「曾經做錯」的題目</option>
+          </select>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="fld">
+          <label>題數</label>
+          <select id="suCount">
+            <option value="10">10 題</option>
+            <option value="20" selected>20 題</option>
+            <option value="30">30 題</option>
+            <option value="50">50 題</option>
+            <option value="0">全部（依篩選）</option>
+          </select>
+        </div>
+        <div class="fld">
+          <label>出題順序</label>
+          <select id="suOrder">
+            <option value="random">隨機</option>
+            <option value="year">依年份順序</option>
+          </select>
+        </div>
+      </div>
+      <div id="suAvail" class="sub" style="margin-bottom:14px"></div>
+      <button class="btn lg" id="suStart" onclick="startQuiz()">開始測驗 →</button>
+    </div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="view-quiz" class="section hidden">
+  <div class="wrap">
+    <div class="qtop">
+      <span class="pill c" id="qzSubj">—</span>
+      <div class="prog"><span id="qzProgTxt" style="font-size:12px;color:var(--mut);font-weight:600"></span><div class="bar"><i id="qzProgBar" style="width:0;background:var(--c)"></i></div></div>
+      <button class="btn gray" style="padding:8px 14px" onclick="confirmQuit()">結束</button>
+    </div>
+    <div class="card qcard" id="qzCard"></div>
+    <div class="palette" id="qzPalette"></div>
+    <div class="qnav">
+      <button class="btn gray" id="qzPrev" onclick="qzMove(-1)">← 上一題</button>
+      <button class="btn" id="qzNext" onclick="qzMove(1)">下一題 →</button>
+      <button class="btn" id="qzSubmit" onclick="submitQuiz()" style="background:var(--ok)">交卷計分</button>
+    </div>
+  </div>
+</section>
+
+<!-- RESULT -->
+<section id="view-result" class="section hidden">
+  <div class="wrap">
+    <div class="card scoreHero">
+      <div class="ring" id="scoreRing"><span class="num" id="scoreNum"></span></div>
+      <div id="scoreLine" style="font-weight:700;font-size:16px"></div>
+      <div class="sub" id="scoreSub" style="margin-top:4px"></div>
+      <div class="actions" style="justify-content:center;margin-top:14px">
+        <button class="btn" onclick="reviewWrongFromResult()">只複習本次錯題</button>
+        <button class="btn ghost" onclick="go('setup')">再來一份</button>
+        <button class="btn gray" onclick="go('home')">回儀表板</button>
+      </div>
+    </div>
+    <h2 class="title" style="font-size:16px;margin-top:22px">逐題檢討</h2>
+    <p class="legend">點每一題可展開完整詳解。✅＝答對，❌＝答錯。</p>
+    <div class="reslist" id="resList"></div>
+  </div>
+</section>
+
+<!-- REVIEW / BROWSE -->
+<section id="view-review" class="section hidden">
+  <div class="wrap">
+    <h2 class="title">複習・題目瀏覽</h2>
+    <p class="sub">直接瀏覽題目與完整詳解，或只看做過/答錯的題目。適合考前快速翻閱。</p>
+    <div class="card" style="padding:16px;margin-bottom:18px">
+      <div class="fld" style="margin-bottom:12px"><label>科目</label><div class="chips" id="rvSubjects"></div></div>
+      <div class="row2">
+        <div class="fld" style="margin-bottom:0"><label>主題</label><select id="rvTopic"></select></div>
+        <div class="fld" style="margin-bottom:0"><label>顯示</label><select id="rvScope">
+          <option value="all">全部題目</option>
+          <option value="wrong">只看答錯</option>
+          <option value="done">只看做過</option>
+          <option value="unseen">只看沒做過</option>
+        </select></div>
+      </div>
+    </div>
+    <p class="sub" id="rvCount"></p>
+    <div class="reslist" id="rvList"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    醫學三 國考題庫整合系統 ｜ 整理：高醫心臟內科 劉宜學醫師<br>
+    題目來源：考選部「考畢試題查詢平臺」（醫師國家考試 醫學(三)）。屬政府公開之考畢試題，僅供醫學教育使用。詳解為原創整理。
+  </div>
+</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ===================== state & storage ===================== */
+const DKEY='med3_progress_v1', HKEY='med3_history_v1', MKEY='med3_marks_v1';
+let INDEX=null;               // index.json
+const CACHE={};               // code -> question array
+const QBY={};                 // qid -> question (merged as loaded)
+let PROG=load(DKEY,{}), HIST=load(HKEY,[]), MARKS=load(MKEY,{});
+let SUBJMAP={};               // code -> subject meta
+let curView='home';
+
+function load(k,d){try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){toast('儲存空間不足，進度可能未保存')}}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2200)}
+function esc(s){return (s==null?'':''+s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+/* ===================== bootstrap ===================== */
+fetch('data/index.json').then(r=>r.json()).then(idx=>{
+  INDEX=idx; idx.subjects.forEach(s=>SUBJMAP[s.code]=s);
+  document.getElementById('hdrTotal').textContent=idx.total;
+  buildSetupSubjects(); buildReviewSubjects();
+  renderHome();
+}).catch(e=>{document.getElementById('subjGrid').innerHTML='<p class="empty">無法載入題庫資料 (data/index.json)。請從網站伺服器開啟，而非直接雙擊檔案。</p>'});
+
+async function ensureSubject(code){
+  if(CACHE[code]) return CACHE[code];
+  const arr=await fetch('data/'+code+'.json').then(r=>r.json());
+  arr.forEach(q=>{q._c=code; QBY[q.id]=q;});
+  CACHE[code]=arr; return arr;
+}
+
+/* ===================== correctness ===================== */
+function correctAns(q){return (q.acc&&q.acc.length)?q.acc:(q.ans?[q.ans]:[]);}
+function isCorrect(q,sel){
+  if(!sel) return false;
+  if((q.st||'').indexOf('送分')>=0) return true;
+  return correctAns(q).includes(sel);
+}
+
+/* ===================== navigation ===================== */
+function go(v){
+  curView=v;
+  ['home','setup','quiz','result','review'].forEach(x=>document.getElementById('view-'+x).classList.toggle('hidden',x!==v));
+  ['home','setup','review'].forEach(x=>document.getElementById('nav-'+x).classList.toggle('on',x===v));
+  window.scrollTo(0,0);
+  if(v==='home') renderHome();
+  if(v==='setup') refreshSetup();
+  if(v==='review') renderReview();
+}
+
+/* ===================== HOME ===================== */
+function progStats(ids){ // ids optional filter
+  let done=0,correct=0,attempts=0;
+  const keys=ids||Object.keys(PROG);
+  keys.forEach(id=>{const p=PROG[id];if(p){done++;attempts+=p.n||1;if(p.c)correct++;}});
+  return {done,correct,attempts};
+}
+function renderHome(){
+  const total=INDEX.total;
+  const all=progStats();
+  const acc= all.done? Math.round(all.correct/all.done*100):0;
+  const hero=[
+    ['總題數',total,'題庫涵蓋'],
+    ['已作答',all.done,'累計題數'],
+    ['答對率',acc+'%','已作答題目'],
+    ['測驗次數',HIST.length,'完成份數']
+  ];
+  document.getElementById('heroStats').innerHTML=hero.map(h=>`<div class="stat"><div class="v">${h[1]}</div><div class="l">${h[0]}</div></div>`).join('');
+  // subject cards
+  document.getElementById('subjGrid').innerHTML=INDEX.subjects.map(s=>{
+    const ids=subjectIds(s.code);
+    const st=progStats(ids);
+    const pct= s.count? Math.round(st.done/s.count*100):0;
+    const acc= st.done? Math.round(st.correct/st.done*100):0;
+    return `<div class="subj" style="--c:${s.color}" onclick="quickSubject('${s.code}')">
+      <div class="badge" style="--c:${s.color}">${esc(s.name.slice(0,2))}</div>
+      <h3>${esc(s.name)}</h3>
+      <div class="meta">${s.count} 題 ｜ ${s.images} 題附圖 ｜ ${s.topics.length} 主題</div>
+      <div class="pgwrap"><div class="bar"><i style="width:${pct}%;background:${s.color}"></i></div>
+        <span class="pct">${st.done}/${s.count}・對${acc}%</span></div>
+    </div>`;
+  }).join('');
+}
+// progress on a subject needs the id list; we can derive ids without loading full file using year list? we need ids -> load lazily.
+// Lightweight: store known ids per subject after first load; before load, approximate using PROG keys prefix.
+function subjectIds(code){
+  if(CACHE[code]) return CACHE[code].map(q=>q.id);
+  // fallback: count PROG ids that belong to this subject via prefix map (exam code not unique per subject) -> use marker set
+  return Object.keys(PROG).filter(id=>PROG[id]&&PROG[id].s===code);
+}
+function quickSubject(code){
+  // open setup prefilled with just this subject
+  SU.subjects=new Set([code]); SU.topic='__all'; SU.year='__all';
+  go('setup');
+}
+
+/* ===================== SETUP ===================== */
+const SU={subjects:new Set(), topic:'__all', year:'__all'};
+function buildSetupSubjects(){
+  document.getElementById('suSubjects').innerHTML=INDEX.subjects.map(s=>
+    `<button class="chip sc" data-c="${s.code}" style="--c:${s.color}" onclick="toggleSU('${s.code}')">${esc(s.name)} <span style="opacity:.7">${s.count}</span></button>`).join('');
+}
+function toggleSU(code){
+  if(SU.subjects.has(code))SU.subjects.delete(code); else SU.subjects.add(code);
+  SU.topic='__all';
+  refreshSetup();
+}
+function refreshSetup(){
+  // selected chips
+  document.querySelectorAll('#suSubjects .chip').forEach(c=>c.classList.toggle('on',SU.subjects.has(c.dataset.c)));
+  // topics (only when single subject selected)
+  const tbox=document.getElementById('suTopics');
+  if(SU.subjects.size===1){
+    const s=SUBJMAP[[...SU.subjects][0]];
+    tbox.innerHTML=`<button class="chip ${SU.topic==='__all'?'on':''}" onclick="setTopic('__all')">全部主題</button>`+
+      s.topics.map(t=>`<button class="chip ${SU.topic===t.name?'on':''}" onclick="setTopic(this.dataset.t)" data-t="${esc(t.name)}">${esc(t.name)} <span style="opacity:.6">${t.count}</span></button>`).join('');
+  }else{
+    SU.topic='__all';
+    tbox.innerHTML=`<span class="sub" style="margin:0">選擇單一科目後可再篩選主題（多科目時預設全部主題）。</span>`;
+  }
+  // years
+  const ysel=document.getElementById('suYear');
+  const ys=new Set();
+  (SU.subjects.size?[...SU.subjects]:INDEX.subjects.map(s=>s.code)).forEach(c=>SUBJMAP[c].years.forEach(y=>ys.add(y.y)));
+  const yl=[...ys].sort((a,b)=>a-b);
+  ysel.innerHTML=`<option value="__all">全部年份</option>`+yl.map(y=>`<option value="${y}" ${SU.year==y?'selected':''}>民國 ${y} 年（${2011+ (y-100)} ）</option>`).join('');
+  ysel.value=SU.year;
+  estimateAvail();
+}
+function setTopic(t){SU.topic=t;refreshSetup();}
+document.getElementById('suYear')&&document.getElementById('suYear').addEventListener('change',e=>{SU.year=e.target.value;estimateAvail();});
+['suScope','suCount','suOrder'].forEach(id=>{const el=document.getElementById(id);el&&el.addEventListener('change',estimateAvail);});
+
+async function gatherPool(){
+  const codes=SU.subjects.size?[...SU.subjects]:INDEX.subjects.map(s=>s.code);
+  let pool=[];
+  for(const c of codes){const arr=await ensureSubject(c);pool=pool.concat(arr);}
+  // year
+  if(SU.year!=='__all') pool=pool.filter(q=>String(q.y)===String(SU.year));
+  // topic (single subj)
+  if(SU.subjects.size===1 && SU.topic!=='__all') pool=pool.filter(q=>q.t===SU.topic);
+  // scope
+  const scope=document.getElementById('suScope').value;
+  if(scope==='unseen') pool=pool.filter(q=>!PROG[q.id]);
+  if(scope==='wrong') pool=pool.filter(q=>PROG[q.id]&&!PROG[q.id].c);
+  return pool;
+}
+let _availTimer;
+function estimateAvail(){
+  const codes=SU.subjects.size?[...SU.subjects]:INDEX.subjects.map(s=>s.code);
+  let cnt=0;
+  codes.forEach(c=>{
+    const s=SUBJMAP[c];
+    if(SU.year!=='__all'){
+      const y=s.years.find(o=>String(o.y)===String(SU.year)); let base=y?y.count:0;
+      if(SU.subjects.size===1 && SU.topic!=='__all'){const t=s.topics.find(o=>o.name===SU.topic); base=Math.min(base,t?t.count:0);}
+      cnt+=base;
+    } else if(SU.subjects.size===1 && SU.topic!=='__all'){
+      const t=s.topics.find(o=>o.name===SU.topic); cnt+=t?t.count:0;
+    } else cnt+=s.count;
+  });
+  const scope=document.getElementById('suScope').value;
+  let label='約 '+cnt+' 題';
+  if(scope!=='all') label='依「'+(scope==='unseen'?'沒做過':'做錯')+'」篩選後出題（按開始後計算）';
+  document.getElementById('suAvail').textContent='符合條件的題目：'+label;
+  document.getElementById('suStart').disabled=(scope==='all'&&cnt===0);
+}
+
+/* ===================== QUIZ ===================== */
+let QZ=null; // {list:[q], i, ans:{id:sel}, marks:Set, t0}
+async function startQuiz(){
+  let pool=await gatherPool();
+  if(!pool.length){toast('沒有符合條件的題目');return;}
+  const order=document.getElementById('suOrder').value;
+  if(order==='random') shuffle(pool);
+  else pool.sort((a,b)=> (a.y-b.y)|| (a.n-b.n));
+  let n=parseInt(document.getElementById('suCount').value,10);
+  if(n>0) pool=pool.slice(0,n);
+  QZ={list:pool,i:0,ans:{},marks:new Set(),t0:Date.now()};
+  go('quiz'); renderQ();
+}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
+function renderQ(){
+  const q=QZ.list[QZ.i], s=SUBJMAP[q._c];
+  document.documentElement.style.setProperty('--c',s.color);
+  document.getElementById('qzSubj').textContent=s.name;
+  document.getElementById('qzProgTxt').textContent=`第 ${QZ.i+1} / ${QZ.list.length} 題 ｜ 已作答 ${Object.keys(QZ.ans).length}`;
+  document.getElementById('qzProgBar').style.width=((QZ.i+1)/QZ.list.length*100)+'%';
+  const sel=QZ.ans[q.id];
+  const opts=Object.keys(q.op).sort().map(k=>
+    `<button class="opt ${sel===k?'sel':''}" style="--c:${s.color}" onclick="pick('${q.id}','${k}')"><span class="k">${k}</span><span>${esc(q.op[k])}</span></button>`).join('');
+  const img=(q.img||[]).map(d=>`<div class="qimg"><img src="${d}" alt="題目附圖"></div>`).join('');
+  const marked=QZ.marks.has(q.id);
+  document.getElementById('qzCard').innerHTML=`
+    <div class="qhead">
+      <div class="tags"><span class="tag c" style="--c:${s.color}">${esc(s.name)}</span><span class="tag">${esc(q.lb)}</span><span class="tag">第${q.n}題</span><span class="tag">${esc(q.t)}</span></div>
+      <button class="chip ${marked?'on':''}" style="padding:5px 11px" onclick="toggleMark('${q.id}')">${marked?'★ 已標記':'☆ 標記'}</button>
+    </div>
+    <div class="stem">${esc(q.stem)}</div>
+    ${img}
+    <div class="opts">${opts}</div>`;
+  // palette
+  document.getElementById('qzPalette').innerHTML=QZ.list.map((qq,idx)=>
+    `<button class="pdot ${QZ.ans[qq.id]?'done':''} ${idx===QZ.i?'cur':''} ${QZ.marks.has(qq.id)?'mark':''}" style="--c:${s.color}" onclick="jump(${idx})">${idx+1}</button>`).join('');
+  document.getElementById('qzPrev').disabled=QZ.i===0;
+  document.getElementById('qzNext').disabled=QZ.i===QZ.list.length-1;
+}
+function pick(id,k){QZ.ans[id]=k;renderQ();}
+function toggleMark(id){if(QZ.marks.has(id))QZ.marks.delete(id);else QZ.marks.add(id);renderQ();}
+function jump(i){QZ.i=i;renderQ();}
+function qzMove(d){const n=QZ.i+d;if(n>=0&&n<QZ.list.length){QZ.i=n;renderQ();}}
+function confirmQuit(){if(confirm('確定要結束本次測驗嗎？已作答的題目仍會記入進度。')){commitAnswers();go('home');}}
+
+function commitAnswers(){ // record answered into PROG
+  Object.keys(QZ.ans).forEach(id=>{
+    const q=QBY[id], sel=QZ.ans[id], c=isCorrect(q,sel);
+    const p=PROG[id]||{n:0};
+    PROG[id]={a:sel,c:c,n:(p.n||0)+1,t:Date.now(),s:q._c};
+  });
+  save(DKEY,PROG);
+}
+function submitQuiz(){
+  const un=QZ.list.length-Object.keys(QZ.ans).length;
+  if(un>0 && !confirm(`還有 ${un} 題未作答（將以未作答計為錯）。確定要交卷嗎？`)) return;
+  commitAnswers();
+  // history
+  let correct=0; QZ.list.forEach(q=>{if(isCorrect(q,QZ.ans[q.id]))correct++;});
+  const rec={ts:Date.now(),n:QZ.list.length,correct,subjs:[...new Set(QZ.list.map(q=>q._c))],ids:QZ.list.map(q=>q.id),ans:{...QZ.ans}};
+  HIST.unshift(rec); if(HIST.length>60)HIST=HIST.slice(0,60); save(HKEY,HIST);
+  renderResult(rec);
+  go('result');
+}
+
+/* ===================== RESULT ===================== */
+function renderResult(rec){
+  const pct=Math.round(rec.correct/rec.n*100);
+  const ring=document.getElementById('scoreRing');
+  ring.style.setProperty('--p',pct);
+  ring.style.setProperty('--ok', pct>=60?'#16a34a':(pct>=40?'#d97706':'#dc2626'));
+  document.getElementById('scoreNum').innerHTML=`${pct}%<small>${rec.correct} / ${rec.n} 題答對</small>`;
+  const mins=Math.max(1,Math.round((Date.now()-QZ.t0)/60000));
+  document.getElementById('scoreLine').textContent= pct>=80?'表現優異！':(pct>=60?'及格，繼續加油':'再多練習就會進步');
+  document.getElementById('scoreSub').textContent=`本次共 ${rec.n} 題 ｜ 答對 ${rec.correct} 題 ｜ 答錯 ${rec.n-rec.correct} 題 ｜ 用時約 ${mins} 分鐘`;
+  document.getElementById('resList').innerHTML=QZ.list.map((q,i)=>itemHTML(q,QZ.ans[q.id],i)).join('');
+}
+function reviewWrongFromResult(){
+  const wrong=QZ.list.filter(q=>!isCorrect(q,QZ.ans[q.id]));
+  if(!wrong.length){toast('本次全對，沒有錯題！');return;}
+  openList(wrong, QZ.ans, '本次錯題複習');
+}
+
+/* ===================== shared question item (review / result) ===================== */
+function statusNote(q){
+  const st=q.st||'';
+  if(st.indexOf('送分')>=0) return `本題送分（作答即給分）${q.cn?'：'+esc(q.cn):''}`;
+  if(st.indexOf('多重')>=0) return `多重答案：${q.acc.join('、')} 皆給分${q.cn?'（'+esc(q.cn)+'）':''}`;
+  if(st.indexOf('更正')>=0) return `答案更正為 ${q.acc.join('、')}${q.cn?'（'+esc(q.cn)+'）':''}`;
+  return '';
+}
+function itemHTML(q,sel,idx){
+  const c=isCorrect(q,sel), s=SUBJMAP[q._c];
+  const yn = sel? `你的作答：${sel}　正解：${correctAns(q).join('、')}` : `未作答　正解：${correctAns(q).join('、')}`;
+  return `<div class="ritem">
+    <div class="reshd" onclick="this.parentNode.querySelector('.resbody').classList.toggle('hidden')">
+      <div class="mk ${c?'ok':'no'}">${c?'✓':'✕'}</div>
+      <div style="flex:1"><div class="qt">${esc((q.stem||'').slice(0,90))}${q.stem.length>90?'…':''}</div>
+        <div class="yn">${esc(s.name)}・${esc(q.lb)}・${esc(q.t)} ｜ ${yn}</div></div>
+      <div class="chev">展開▾</div>
+    </div>
+    <div class="resbody hidden">${detailHTML(q,sel)}</div>
+  </div>`;
+}
+function detailHTML(q,sel){
+  const s=SUBJMAP[q._c];
+  document.documentElement.style.setProperty('--c',s.color);
+  const cans=correctAns(q);
+  const opts=Object.keys(q.op).sort().map(k=>{
+    let cls='opt';
+    if(cans.includes(k)) cls+=' correct';
+    if(sel===k && !cans.includes(k)) cls+=' wrong';
+    return `<div class="${cls}" style="--c:${s.color}"><span class="k">${k}</span><span>${esc(q.op[k])}</span></div>`;
+  }).join('');
+  const img=(q.img||[]).map(d=>`<div class="qimg"><img src="${d}"></div>`).join('');
+  const note=statusNote(q);
+  const ex=q.ex||{};
+  const exop=ex.op&&Object.keys(ex.op).length? `<div class="exb opt"><h4>🔎 逐選項解析</h4>${Object.keys(ex.op).sort().map(k=>`<div class="oi"><b>(${k})</b> ${esc(ex.op[k])}</div>`).join('')}</div>`:'';
+  const src=(ex.src&&ex.src.length)? `<div class="srcs"><b>參考：</b>${ex.src.map(esc).join('；')}</div>`:'';
+  return `<div style="padding-top:12px">
+    <div class="stem" style="font-size:15px">${esc(q.stem)}</div>
+    ${img}
+    <div class="opts" style="margin-bottom:8px">${opts}</div>
+    ${note?`<div class="statusbox">⚠️ ${note}</div>`:''}
+    <div class="exp">
+      ${ex.q?`<div class="exb quick"><h4>⚡ 快速解答</h4>${esc(ex.q)}</div>`:''}
+      ${ex.bg?`<div class="exb bgk"><h4>📚 背景知識</h4>${esc(ex.bg)}</div>`:''}
+      ${exop}
+      ${src}
+    </div></div>`;
+}
+
+/* generic list opener (wrong review) reuses review view */
+function openList(list, ansMap, title){
+  RV._override={list,ansMap,title};
+  go('review'); renderReview();
+}
+function startWrongReview(){
+  // load all subjects that have wrong answers, then show
+  const codes=[...new Set(Object.keys(PROG).filter(id=>PROG[id]&&!PROG[id].c).map(id=>PROG[id].s))].filter(Boolean);
+  if(!codes.length){toast('目前沒有錯題，先去測驗吧！');return;}
+  Promise.all(codes.map(ensureSubject)).then(()=>{
+    const list=Object.keys(PROG).filter(id=>PROG[id]&&!PROG[id].c).map(id=>QBY[id]).filter(Boolean);
+    const ansMap={}; list.forEach(q=>ansMap[q.id]=PROG[q.id].a);
+    openList(list,ansMap,'全部錯題複習');
+  });
+}
+
+/* ===================== REVIEW / BROWSE ===================== */
+const RV={subj:null,_override:null};
+function buildReviewSubjects(){
+  document.getElementById('rvSubjects').innerHTML=INDEX.subjects.map(s=>
+    `<button class="chip sc" data-c="${s.code}" style="--c:${s.color}" onclick="rvPick('${s.code}')">${esc(s.name)}</button>`).join('');
+  document.getElementById('rvTopic').addEventListener('change',renderReviewList);
+  document.getElementById('rvScope').addEventListener('change',renderReviewList);
+}
+function rvPick(code){RV.subj=code;RV._override=null;renderReview();}
+async function renderReview(){
+  if(RV._override){ // wrong-review / result-wrong list mode
+    const o=RV._override;
+    document.getElementById('rvSubjects').parentNode.parentNode.style.display='none';
+    document.getElementById('rvCount').textContent=`${o.title}：${o.list.length} 題`;
+    document.querySelector('#view-review .title').textContent='複習 ・ '+o.title;
+    document.getElementById('rvList').innerHTML=o.list.map((q,i)=>itemHTML(q,o.ansMap?o.ansMap[q.id]:PROG[q.id]&&PROG[q.id].a,i)).join('');
+    return;
+  }
+  document.querySelector('#view-review .title').textContent='複習・題目瀏覽';
+  document.getElementById('rvSubjects').parentNode.parentNode.style.display='';
+  if(!RV.subj) RV.subj=INDEX.subjects[0].code;
+  document.querySelectorAll('#rvSubjects .chip').forEach(c=>c.classList.toggle('on',c.dataset.c===RV.subj));
+  const s=SUBJMAP[RV.subj];
+  const tsel=document.getElementById('rvTopic');
+  tsel.innerHTML=`<option value="__all">全部主題</option>`+s.topics.map(t=>`<option value="${esc(t.name)}">${esc(t.name)}（${t.count}）</option>`).join('');
+  await ensureSubject(RV.subj);
+  renderReviewList();
+}
+function renderReviewList(){
+  const arr=CACHE[RV.subj]||[];
+  const topic=document.getElementById('rvTopic').value;
+  const scope=document.getElementById('rvScope').value;
+  let list=arr.slice();
+  if(topic!=='__all') list=list.filter(q=>q.t===topic);
+  if(scope==='wrong') list=list.filter(q=>PROG[q.id]&&!PROG[q.id].c);
+  if(scope==='done') list=list.filter(q=>PROG[q.id]);
+  if(scope==='unseen') list=list.filter(q=>!PROG[q.id]);
+  document.getElementById('rvCount').textContent=`${SUBJMAP[RV.subj].name} ｜ 顯示 ${list.length} 題`;
+  document.getElementById('rvList').innerHTML= list.length? list.map((q,i)=>itemHTML(q,PROG[q.id]&&PROG[q.id].a,i)).join('')
+    : '<div class="empty"><div class="big">📭</div>此條件下沒有題目。</div>';
+}
+
+/* ===================== export / reset ===================== */
+function exportProg(){
+  const blob=new Blob([JSON.stringify({PROG,HIST,MARKS,ver:1,exported:new Date().toISOString()},null,0)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='醫學三題庫進度_'+new Date().toISOString().slice(0,10)+'.json';a.click();
+  toast('已匯出進度備份檔');
+}
+function resetProg(){
+  if(!confirm('確定要清除所有作答進度與測驗紀錄嗎？此動作無法復原（建議先匯出備份）。'))return;
+  PROG={};HIST=[];MARKS={};save(DKEY,PROG);save(HKEY,HIST);save(MKEY,MARKS);
+  toast('已重置所有進度');renderHome();
+}
+</script>
+</body>
+</html>
