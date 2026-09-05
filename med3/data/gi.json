@@ -23,8 +23,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "肝腦病變是腸道含氮物(氨)增加＋誘發因子所致；靜脈注射支鏈氨基酸(BCAA)反而用來『治療』而非誘發。",
-   "bg": "肝性腦病變(hepatic encephalopathy, HE)是急性肝衰竭或肝硬化門體分流下，腸道來源的神經毒素(以氨ammonia為核心，另有假性神經傳遞物、GABA能增強)未經肝臟清除而進入中樞所致。臨床分 West Haven I–IV 級。**處理重點在找出並矯正誘發因子**：腸胃道出血(血液=高蛋白負荷)、感染(尤其SBP)、低血鉀與代謝性鹼中毒(促進NH3跨膜入腦)、便秘、脫水/利尿過度、高蛋白飲食、鎮靜劑、TIPS術後。治療以 lactulose(酸化腸腔、促排便、減少氨吸收)為一線，rifaximin 為輔。BCAA 溶液是用來改善蛋白質耐受、作為『治療』之一，並非誘發因子。",
+   "q": "肝腦病變是腸道含氮物(氨)增加＋誘發因子所致；靜脈注射支鏈氨基酸(BCAA)反而用來治療而非誘發。",
+   "bg": "肝性腦病變(hepatic encephalopathy, HE)是急性肝衰竭或肝硬化門體分流下，腸道來源的神經毒素(以氨ammonia為核心，另有假性神經傳遞物、GABA能增強)未經肝臟清除而進入中樞所致。臨床分 West Haven I–IV 級。**處理重點在找出並矯正誘發因子**：腸胃道出血(血液=高蛋白負荷)、感染(尤其SBP)、低血鉀與代謝性鹼中毒(促進NH3跨膜入腦)、便秘、脫水/利尿過度、高蛋白飲食、鎮靜劑、TIPS術後。治療以 lactulose(酸化腸腔、促排便、減少氨吸收)為一線，rifaximin 為輔。BCAA 溶液是用來改善蛋白質耐受、作為治療之一，並非誘發因子。",
    "op": {
     "A": "感染(含SBP)會增加分解代謝與氨產生，是常見誘因。",
     "B": "高蛋白飲食提供大量含氮負荷，是典型誘因。",
@@ -61,12 +61,12 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "NAFLD屬胰島素阻抗症候群，但與『第一型』糖尿病無關——第一型是自體免疫胰島素缺乏，不屬代謝症候群。",
+   "q": "NAFLD屬胰島素阻抗症候群，但與第一型糖尿病無關——第一型是自體免疫胰島素缺乏，不屬代謝症候群。",
    "bg": "非酒精性脂肪肝病(NAFLD/現稱MASLD)涵蓋單純脂肪變性→脂性肝炎(NASH)→纖維化→肝硬化，是已開發國家最常見慢性肝病，與肥胖、第二型糖尿病、血脂異常、高血壓等**胰島素阻抗(insulin resistance)**密切相關，被視為代謝症候群的肝臟表現。診斷需排除大量飲酒(男<30g/日、女<20g/日)。多數患者 AST/ALT 比值<1(與酒精性肝病AST/ALT>2相反)。",
    "op": {
     "A": "正確。NAFLD為一疾病光譜，從單純脂肪到肝硬化。",
     "B": "正確。胰島素阻抗被視為NAFLD的核心驅動因子。",
-    "C": "錯誤(本題選錯者)。應為『第二型』糖尿病；第一型糖尿病為自體免疫胰島素缺乏，不屬胰島素阻抗症候群。",
+    "C": "錯誤(本題選錯者)。應為第二型糖尿病；第一型糖尿病為自體免疫胰島素缺乏，不屬胰島素阻抗症候群。",
     "D": "正確。NAFLD多AST/ALT<1，酒精性肝病則AST/ALT常>2。"
    },
    "src": [
@@ -137,12 +137,12 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "膽固醇結石與肥胖/雌激素/快速減重相關；肝硬化、溶血等反而易生『膽色素(pigment)』結石。",
+   "q": "膽固醇結石與肥胖/雌激素/快速減重相關；肝硬化、溶血等反而易生膽色素(pigment)結石。",
    "bg": "膽結石分膽固醇結石(西方最常見，與肥胖、女性、雌激素、快速減重、膽囊排空差有關)與膽色素結石(黑色：慢性溶血、肝硬化；棕色：膽道感染/寄生蟲)。無症狀膽結石原則上不需處理；曾有症狀或併發症(膽絞痛、膽囊炎、膽管炎、膽石性胰臟炎)者建議膽囊切除。口服膽鹽(UDCA)只對小型、純膽固醇、且膽囊功能正常者部分有效，對鈣化或色素結石無效。",
    "op": {
     "A": "正確。有症狀或併發症者建議膽囊切除。",
     "B": "正確。UDCA無法溶解色素結石。",
-    "C": "錯誤(本題選錯者)。肝硬化、慢性溶血者易生『膽色素』結石而非膽固醇結石。",
+    "C": "錯誤(本題選錯者)。肝硬化、慢性溶血者易生膽色素結石而非膽固醇結石。",
     "D": "正確。長期無症狀膽結石日後發作機率低。"
    },
    "src": [
@@ -175,11 +175,11 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "大腸憩室診斷以大腸鏡/CT為主；鋇劑攝影並非『診斷率很低』，反而曾是經典檢出工具。",
-   "bg": "大腸憩室症(diverticulosis)隨年齡增加而盛行，西方多位於乙狀結腸/左側大腸(亞洲較多右側)。多數無症狀，最常見併發症為憩室出血(無痛大量血便)與憩室炎(左下腹痛、發燒，被稱『左側闌尾炎』)。高纖維飲食可減少便秘與症狀。憩室可由大腸鏡或鋇劑攝影發現；急性憩室炎診斷首選腹部CT(且急性期避免大腸鏡以免穿孔)。",
+   "q": "大腸憩室診斷以大腸鏡/CT為主；鋇劑攝影並非診斷率很低，反而曾是經典檢出工具。",
+   "bg": "大腸憩室症(diverticulosis)隨年齡增加而盛行，西方多位於乙狀結腸/左側大腸(亞洲較多右側)。多數無症狀，最常見併發症為憩室出血(無痛大量血便)與憩室炎(左下腹痛、發燒，被稱左側闌尾炎)。高纖維飲食可減少便秘與症狀。憩室可由大腸鏡或鋇劑攝影發現；急性憩室炎診斷首選腹部CT(且急性期避免大腸鏡以免穿孔)。",
    "op": {
     "A": "錯誤(本題選錯者)。鋇劑造影對憩室檢出率並不低，敘述不正確。",
-    "B": "正確。歐美憩室多在左側大腸，發炎稱『左側闌尾炎』。",
+    "B": "正確。歐美憩室多在左側大腸，發炎稱左側闌尾炎。",
     "C": "正確。建議高纖飲食避免便秘。",
     "D": "正確。多數無症狀，常見併發症為出血與憩室炎。"
    },
@@ -213,7 +213,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "中毒性巨結腸放置鼻胃管有助減壓；氣脹主要在橫結腸，並非『對病人無幫助』。",
+   "q": "中毒性巨結腸放置鼻胃管有助減壓；氣脹主要在橫結腸，並非對病人無幫助。",
    "bg": "中毒性巨結腸(toxic megacolon)是潰瘍性大腸炎(<2%)或感染性大腸炎(C. difficile等)的致命併發症，特徵為結腸(常橫結腸)擴張≥6 cm併全身毒性表現(發燒、心搏過速、白血球上升、脫水)。處理：禁食、鼻胃管/肛管減壓、輸液電解質矯正、靜脈類固醇(若IBD)、廣效抗生素，密切影像追蹤；48–72小時未改善或穿孔者需緊急手術(全大腸切除)。",
    "op": {
     "A": "正確。為UC罕見併發症，有穿孔危險。",
@@ -327,7 +327,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "荷爾蒙補充療法(HRT)反而與大腸癌風險『降低』相關，並非危險因子。",
+   "q": "荷爾蒙補充療法(HRT)反而與大腸癌風險降低相關，並非危險因子。",
    "bg": "大腸直腸癌危險因子：年齡、一等親家族史、遺傳症候群(FAP、Lynch)、發炎性腸病(>8–10年)、進行性腺瘤、高動物脂肪/紅肉/低纖飲食、肥胖、糖尿病、抽菸、飲酒。**保護因子**：規律運動、aspirin/NSAID、鈣與纖維、以及停經後女性的荷爾蒙補充療法(觀察性與WHI資料顯示降低CRC風險)。",
    "op": {
     "A": "高動物脂肪飲食為危險因子。",
@@ -481,7 +481,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "懷疑消化性潰瘍穿孔且立位CXR外，最快速找游離氣體的是『左側躺腹部X光(left decubitus)』。",
+   "q": "懷疑消化性潰瘍穿孔且立位CXR外，最快速找游離氣體的是左側躺腹部X光(left decubitus)。",
    "bg": "消化性潰瘍穿孔會造成腹腔游離氣體(free air)與化學性腹膜炎(瀰漫壓痛、反彈痛)。偵測游離氣體最簡便：站立胸部X光看橫膈下游離氣；無法站立者改**左側臥位(left lateral decubitus)腹部X光**，氣體浮到右側肝臟與腹壁之間易顯現。胃鏡/上消化道攝影在懷疑穿孔時相對禁忌或非首選；胃灌洗無助於診斷穿孔。",
    "op": {
     "A": "胃灌洗無助診斷穿孔。",
@@ -558,7 +558,7 @@
   "img": [],
   "ex": {
    "q": "血清-腹水白蛋白梯度(SAAG)=2.6−1.2=1.4≥1.1，屬門脈高壓性腹水；本例最符合心臟衰竭(高蛋白漏出液)。",
-   "bg": "腹水鑑別以**SAAG(血清albumin−腹水albumin)**為核心：≥1.1 g/dL=門脈高壓性(肝硬化、心衰、Budd-Chiari、竇阻塞)；<1.1=非門脈高壓(腹膜癌、結核性腹膜炎、胰源性、腎病)。再以腹水『總蛋白』細分高SAAG者：心衰/竇後性阻塞腹水蛋白常>2.5 g/dL，肝硬化腹水蛋白<2.5。本例SAAG 1.4(高)、腹水蛋白2.0–2.8 g/dL(偏高)→心源性。PMN<250且未達感染標準。",
+   "bg": "腹水鑑別以**SAAG(血清albumin−腹水albumin)**為核心：≥1.1 g/dL=門脈高壓性(肝硬化、心衰、Budd-Chiari、竇阻塞)；<1.1=非門脈高壓(腹膜癌、結核性腹膜炎、胰源性、腎病)。再以腹水總蛋白細分高SAAG者：心衰/竇後性阻塞腹水蛋白常>2.5 g/dL，肝硬化腹水蛋白<2.5。本例SAAG 1.4(高)、腹水蛋白2.0–2.8 g/dL(偏高)→心源性。PMN<250且未達感染標準。",
    "op": {
     "A": "正解。高SAAG＋腹水蛋白偏高，最符合鬱血性心衰竭。",
     "B": "結核性腹膜炎SAAG<1.1，不符。",
@@ -595,7 +595,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "肝腺瘤與口服避孕藥相關，確診後應『停用』避孕藥(可能消退並降低出血/惡性風險)，非繼續服用。",
+   "q": "肝腺瘤與口服避孕藥相關，確診後應停用避孕藥(可能消退並降低出血/惡性風險)，非繼續服用。",
    "bg": "肝細胞腺瘤(hepatic adenoma)好發育齡女性，與口服避孕藥、合成代謝類固醇、肝醣儲積症相關，多位於右葉。風險為出血(破裂)與惡性變(尤其>5 cm或β-catenin型、男性)。處理：**停用雌激素/避孕藥**、減重；持續>5 cm或有症狀者手術切除。",
    "op": {
     "A": "正確。與口服避孕藥相關。",
@@ -633,11 +633,11 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "正常抗逆流屏障＝下食道括約肌＋橫膈腳肌肉，且胃食道接合處位於橫膈裂孔『之下』(腹腔內)。",
+   "q": "正常抗逆流屏障＝下食道括約肌＋橫膈腳肌肉，且胃食道接合處位於橫膈裂孔之下(腹腔內)。",
    "bg": "抗胃食道逆流的解剖生理屏障包括：下食道括約肌(LES)張力、橫膈腳(crural diaphragm)外在壓迫、His角、以及**胃食道接合處(GEJ)位於橫膈裂孔之下、處於腹內正壓段**。當GEJ上移入胸腔(裂孔疝氣)、LES鬆弛或腹壓增加時抗逆流機制失效→GERD。",
    "op": {
     "A": "GEJ位於裂孔之上為異常(裂孔疝氣)。",
-    "B": "『胃底部肌肉』非主要屏障組成。",
+    "B": "胃底部肌肉非主要屏障組成。",
     "C": "位於裂孔之上為異常。",
     "D": "正解。下食道括約肌＋橫膈膜肌肉＋GEJ位於裂孔之下。"
    },
@@ -747,7 +747,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "C肝主要經血液傳染；性行為與家庭內接觸傳染效率低、並非『很常見』。",
+   "q": "C肝主要經血液傳染；性行為與家庭內接觸傳染效率低、並非很常見。",
    "bg": "C型肝炎(HCV)主要經**血液**傳染：過去輸血/血品、共用針具、不安全醫療注射。性行為傳染效率遠低於B肝/HIV(除非合併HIV或黏膜出血性行為)；家庭內一般接觸傳染少見；母乳哺餵不傳染。約75–85%急性感染轉慢性。",
    "op": {
     "A": "正確。如B肝一樣經體液/血液，但以血液為主。",
@@ -785,8 +785,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "頑固性腹水病人鼓勵『多吃高蛋白』最不適當——肝硬化反需限鈉，過量蛋白且不當可誘發肝腦病變。",
-   "bg": "肝硬化頑固性(refractory)腹水：已限鈉(<2 g/日)＋足量利尿劑(spironolactone±furosemide)仍無法控制。處置選項：大量放腹水(LVP)＋白蛋白補充(每抽1L補6–8g albumin)、TIPS(選擇性病人)、評估肝移植。**不建議刻意『多吃高蛋白』**(無助腹水且可能誘發HE)；亦不應加鈉。",
+   "q": "頑固性腹水病人鼓勵多吃高蛋白最不適當——肝硬化反需限鈉，過量蛋白且不當可誘發肝腦病變。",
+   "bg": "肝硬化頑固性(refractory)腹水：已限鈉(<2 g/日)＋足量利尿劑(spironolactone±furosemide)仍無法控制。處置選項：大量放腹水(LVP)＋白蛋白補充(每抽1L補6–8g albumin)、TIPS(選擇性病人)、評估肝移植。**不建議刻意多吃高蛋白**(無助腹水且可能誘發HE)；亦不應加鈉。",
    "op": {
     "A": "正確。頑固腹水應評估肝移植。",
     "B": "正解(最不適當)。不應鼓勵多吃高蛋白。",
@@ -823,7 +823,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "食道『下段腺癌』最相關危險因子為慢性胃食道逆流/Barrett食道；鱗癌才與菸酒、熱食相關。",
+   "q": "食道下段腺癌最相關危險因子為慢性胃食道逆流/Barrett食道；鱗癌才與菸酒、熱食相關。",
    "bg": "食道癌兩型：**腺癌(adenocarcinoma)**多位於下段，與慢性GERD、Barrett食道、肥胖相關(西方/北美漸增)；**鱗狀細胞癌**位於中上段，與抽菸、烈酒、熱飲、亞硝胺、achalasia、tylosis相關。本題下段腺癌→GERD。",
    "op": {
     "A": "正解。慢性胃食道逆流(Barrett)與下段腺癌最相關。",
@@ -939,7 +939,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "AST/ALT正常、HBeAg陽性、HBV DNA高的年輕帶原者處於『免疫耐受期』，原則上觀察追蹤而非立即抗病毒治療。",
+   "q": "AST/ALT正常、HBeAg陽性、HBV DNA高的年輕帶原者處於免疫耐受期，原則上觀察追蹤而非立即抗病毒治療。",
    "bg": "慢性B肝自然史：免疫耐受期(HBeAg+、HBV DNA極高、ALT正常)→免疫清除期(ALT升、可肝損傷)→不活動帶原(HBeAg−/anti-HBe+、DNA低、ALT正常)→再活化。**免疫耐受期一般不治療**，定期追蹤ALT/DNA與肝癌篩檢。垂直感染為台灣主要途徑，家族肝癌史者風險較高。是否治療依ALT、纖維化、DNA、需化療免疫抑制等綜合判斷。",
    "op": {
     "A": "正確。垂直感染為最可能途徑。",
@@ -1018,7 +1018,7 @@
   ],
   "ex": {
    "q": "阿米巴肝膿瘍致病為Entamoeba histolytica(具侵襲性)；E. dispar為非致病性同形態種，敘述錯誤。",
-   "bg": "阿米巴肝膿瘍由**Entamoeba histolytica**經糞口吞入囊體、自腸壁侵入經門脈到肝，典型右上腹痛、發燒、肝腫大，膿呈『鯷魚醬色』，多為單一右葉病灶，血清抗體陽性。E. dispar形態相同但**不致病**。治療首選metronidazole(或tinidazole)＋管腔內藥(paromomycin)清除帶原。AIDS等免疫低下較易侵襲。",
+   "bg": "阿米巴肝膿瘍由**Entamoeba histolytica**經糞口吞入囊體、自腸壁侵入經門脈到肝，典型右上腹痛、發燒、肝腫大，膿呈鯷魚醬色，多為單一右葉病灶，血清抗體陽性。E. dispar形態相同但**不致病**。治療首選metronidazole(或tinidazole)＋管腔內藥(paromomycin)清除帶原。AIDS等免疫低下較易侵襲。",
    "op": {
     "A": "錯誤(本題選錯者)。致病菌為E. histolytica而非E. dispar。",
     "B": "正確。吃到含囊體食物/水傳染。",
@@ -1093,7 +1093,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "巴瑞特食道(Barrett)是『食道腺癌』的重要危險因子(腸上皮化生)。",
+   "q": "巴瑞特食道(Barrett)是食道腺癌的重要危險因子(腸上皮化生)。",
    "bg": "慢性GERD→食道下段鱗狀上皮被腸型柱狀上皮取代(腸上皮化生)即**Barrett食道**，為**食道腺癌**的癌前病變，需內視鏡監測(依異型增生分級)。鱗狀細胞癌與菸酒相關，與Barrett無關。",
    "op": {
     "A": "胃腺癌與Hp/萎縮性胃炎相關。",
@@ -1131,7 +1131,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "膽汁滯留性黃疸(ALP/GGT明顯升、直接膽紅素高)應先腹部超音波評估膽道，不應未檢查即『立即PTCD』。",
+   "q": "膽汁滯留性黃疸(ALP/GGT明顯升、直接膽紅素高)應先腹部超音波評估膽道，不應未檢查即立即PTCD。",
    "bg": "黃疸鑑別先分肝細胞性(AST/ALT顯著升)與膽汁滯留性(ALP/GGT升、直接膽紅素升)。**膽汁滯留/阻塞性黃疸第一步是腹部超音波**看膽管有無擴張、結石、腫瘤；PT延長者補充維生素K。經皮經肝膽道引流(PTCD)是治療性介入，須先有影像證實阻塞與適應症，**不應未經評估即立即施行**。膽汁滯留時尿膽紅素增加、糞膽素原減少。",
    "op": {
     "A": "PT延長應補充維生素K，正確。",
@@ -1169,7 +1169,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "PBC為膽汁滯留型，膽紅素升高以『直接(結合)型』為主；選項說以間接型為主故錯。",
+   "q": "PBC為膽汁滯留型，膽紅素升高以直接(結合)型為主；選項說以間接型為主故錯。",
    "bg": "原發性膽汁性膽管炎(PBC，舊稱primary biliary cirrhosis)好發中年女性，為小葉間膽管的自體免疫破壞，血清呈膽汁滯留型(ALP、GGT明顯升、AST/ALT輕度升)，**升高的膽紅素以直接型為主**。>90%抗粒線體抗體(AMA)陽性、IgM升高。UDCA可延緩進展、延後肝移植。",
    "op": {
     "A": "正確。多見於中年女性。",
@@ -1245,7 +1245,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "O型血型『不』增加胃腺癌風險(A型血才略增風險)。",
+   "q": "O型血型不增加胃腺癌風險(A型血才略增風險)。",
    "bg": "胃腺癌危險因子：H. pylori(尤其cagA)、萎縮性胃炎/腸上皮化生、惡性貧血、部分胃切除術後(殘胃)≥15–20年、高鹽/醃漬/亞硝胺飲食、吸菸、A型血型(略增)、家族史/遺傳性瀰漫型胃癌(CDH1)。**O型血型與消化性潰瘍較相關，而非胃腺癌風險增加**。",
    "op": {
     "A": "H. pylori感染增加風險。",
@@ -1283,7 +1283,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "抽菸對Crohn’s有害(增加發作)、對潰瘍性大腸炎反而『保護』；戒菸時UC可能惡化。選項D敘述符合此特性。",
+   "q": "抽菸對Crohn’s有害(增加發作)、對潰瘍性大腸炎反而保護；戒菸時UC可能惡化。選項D敘述符合此特性。",
    "bg": "發炎性腸病：**潰瘍性大腸炎(UC)**僅侵犯大腸、由直腸連續向近端、黏膜層瀰漫發炎；**克隆氏症(CD)**口腔到肛門皆可、跳躍式、全層發炎、易瘻管膿瘍狹窄。抽菸：對CD有害(增加發作、術後復發)，對UC具保護(戒菸後UC可能惡化、發病)。兩者病程>8年皆增大腸癌風險。",
    "op": {
     "A": "UC侷限大腸、CD可全消化道，正確。",
@@ -1321,7 +1321,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "Krukenberg瘤(雙側卵巢轉移)最常來自『分泌黏液的(印戒細胞)腺癌』，典型為胃癌。",
+   "q": "Krukenberg瘤(雙側卵巢轉移)最常來自分泌黏液的(印戒細胞)腺癌，典型為胃癌。",
    "bg": "**Krukenberg tumor**為胃腸道(尤其胃)印戒細胞/分泌黏液腺癌轉移至雙側卵巢，組織學可見富含黏液的印戒細胞。原發以胃癌最常見，其次大腸、乳房。",
    "op": {
     "A": "鱗狀上皮細胞癌非典型來源。",
@@ -1360,7 +1360,7 @@
   "img": [],
   "ex": {
    "q": "肝細胞癌肝外轉移最常見部位為肺與腹部(局部)淋巴結。",
-   "bg": "肝細胞癌(HCC)肝內擴散與血管侵犯常見(門脈癌栓)；**肝外轉移最常見為肺，其次腹腔/肝門淋巴結、骨、腎上腺**。本題答『腹部淋巴結及肺』。",
+   "bg": "肝細胞癌(HCC)肝內擴散與血管侵犯常見(門脈癌栓)；**肝外轉移最常見為肺，其次腹腔/肝門淋巴結、骨、腎上腺**。本題答腹部淋巴結及肺。",
    "op": {
     "A": "胃及腸非主要轉移。",
     "B": "胃及胰非主要轉移。",
@@ -1397,7 +1397,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "類癌症候群以潮紅、腹瀉、氣喘樣支氣管痙攣、糙皮病為主；『便秘』不是其症狀。",
+   "q": "類癌症候群以潮紅、腹瀉、氣喘樣支氣管痙攣、糙皮病為主；便秘不是其症狀。",
    "bg": "消化道類癌(神經內分泌瘤)分泌血清素等，當肝轉移繞過肝臟代謝即出現**類癌症候群**：陣發顏面潮紅、分泌性腹瀉、支氣管痙攣(氣喘樣)、右心瓣膜病變；色氨酸被大量轉為血清素導致菸鹼酸不足→糙皮病(pellagra)。診斷查尿24小時5-HIAA；治療somatostatin類似物(octreotide)。**腹瀉為主而非便秘**。",
    "op": {
     "A": "顏面潮紅為典型。",
@@ -1473,7 +1473,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "旅遊者腹瀉不建議常規『預防性抗生素』(抗藥與副作用考量)；其餘關於ETEC、自限、早期fluoroquinolone縮短病程皆正確。",
+   "q": "旅遊者腹瀉不建議常規預防性抗生素(抗藥與副作用考量)；其餘關於ETEC、自限、早期fluoroquinolone縮短病程皆正確。",
    "bg": "旅遊者腹瀉最常見病原為ETEC，約20–50%查不到病原。多為自限性，治療以補液為主，中重度可早期短程fluoroquinolone或azithromycin縮短病程。**常規預防性抗生素不建議**(可選bismuth subsalicylate預防、注重飲食衛生)。",
    "op": {
     "A": "ETEC最常見，正確。",
@@ -1549,7 +1549,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "反覆腹痛、排便後緩解、與壓力相關、無警訊→大腸激躁症(IBS)；非肛門直腸『結構異常』所致。",
+   "q": "反覆腹痛、排便後緩解、與壓力相關、無警訊→大腸激躁症(IBS)；非肛門直腸結構異常所致。",
    "bg": "大腸激躁症(IBS)為功能性腸病，依Rome準則：反覆腹痛(近3月每週≥1日)合併排便相關(排便後改善、伴排便頻率或糞便性狀改變)。機轉為腦-腸軸失調、內臟過敏、蠕動異常、腸道菌叢、心理因素，**並非結構性病變**。無警訊(體重減輕、貧血、血便、夜間症狀、發病年齡大)時不需大量侵入檢查。",
    "op": {
     "A": "正確。符合IBS診斷。",
@@ -1625,12 +1625,12 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "膽紅素半衰期並非『4小時』；與白蛋白結合的非結合型膽紅素無法快速清除，敘述錯誤。",
+   "q": "膽紅素半衰期並非4小時；與白蛋白結合的非結合型膽紅素無法快速清除，敘述錯誤。",
    "bg": "膽紅素為血紅素降解產物，非結合型(間接)膽紅素與白蛋白結合運送至肝，經UGT結合成結合型(直接)經膽汁排出。**血中膽紅素半衰期並非短至4小時**(此選項數字描述有誤)。正常總膽紅素<1 mg/dL，直接型約佔比偏低(常<0.3)。黃疸鑑別依直接/間接比例與肝膽影像。",
    "op": {
     "A": "正確。膽紅素為血紅素代謝物。",
     "B": "正確。間接經肝結合後由膽管排出。",
-    "C": "錯誤(本題選錯者)。膽紅素半衰期『約4小時』之敘述不正確。",
+    "C": "錯誤(本題選錯者)。膽紅素半衰期約4小時之敘述不正確。",
     "D": "正常總膽紅素<1、直接型約30%之描述大致合理。"
    },
    "src": [
@@ -1819,7 +1819,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性上腹痛、amylase/lipase顯著升高(急性胰臟炎)不宜『立即給抗生素』；輕症胰臟炎不需常規抗生素。",
+   "q": "急性上腹痛、amylase/lipase顯著升高(急性胰臟炎)不宜立即給抗生素；輕症胰臟炎不需常規抗生素。",
    "bg": "急性胰臟炎(本例AST/GGT/amylase/lipase升)處置核心：禁食、積極輸液、止痛、找病因(酒精/膽石)。**輕至中度急性胰臟炎不常規使用預防性抗生素**(僅感染性壞死或合併膽管炎才用)。應安排腹部超音波找膽石、詢問酒精/藥物史、禁食。",
    "op": {
     "A": "正解(最不適宜)。不應立即給抗生素。",
@@ -1857,7 +1857,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "慢性腹瀉定義為持續『超過4週』，非4個月；其餘滲透/分泌/脂肪痢敘述正確。",
+   "q": "慢性腹瀉定義為持續超過4週，非4個月；其餘滲透/分泌/脂肪痢敘述正確。",
    "bg": "腹瀉依機轉分：滲透性(禁食後改善，如乳糖不耐、瀉鹽)、分泌性(禁食後不改善，如毒素、神經內分泌瘤)、發炎性、脂肪痢(糞脂>7 g/日)。**病程分類：急性<2週、持續性2–4週、慢性>4週(非4個月)**。",
    "op": {
     "A": "滲透性腹瀉禁食改善，正確。",
@@ -1895,7 +1895,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "國際旅遊者最常見的疾病是『旅遊者腹瀉』。",
+   "q": "國際旅遊者最常見的疾病是旅遊者腹瀉。",
    "bg": "旅遊者腹瀉(traveler’s diarrhea)是國際旅遊最常見健康問題，多由糞口污染的ETEC等細菌引起，多自限。預防重在飲食衛生；治療以補液為主，必要時短程抗生素。性病、寄生蟲、瘧疾相對少見。",
    "op": {
     "A": "正解。旅遊者腹瀉最常見。",
@@ -1933,7 +1933,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "膽石病史＋上腹劇痛平躺加劇屈膝緩解＋左腰Grey-Turner徵→急性胰臟炎；治療以支持(輸液/禁食)為主，非『手術為首要』。",
+   "q": "膽石病史＋上腹劇痛平躺加劇屈膝緩解＋左腰Grey-Turner徵→急性胰臟炎；治療以支持(輸液/禁食)為主，非手術為首要。",
    "bg": "急性胰臟炎典型上腹痛放射至背、平躺加劇、前傾屈膝緩解；嚴重出血壞死可見Grey-Turner(腰側)或Cullen(臍周)瘀斑。處置：禁食、積極輸液、止痛、依Ranson/APACHE II評估嚴重度；膽石性者待穩定行膽囊切除或膽管炎時ERCP。**急性期治療以內科支持為首要，手術非第一線**。",
    "op": {
     "A": "病情可能與膽結石相關，正確。",
@@ -1971,8 +1971,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "C肝肝硬化、便秘、肉食、神智不清→肝性腦病變；此情境血氨多『升高』，選項給ammonia正常值最不符。",
-   "bg": "肝硬化失代償(白蛋白低、膽紅素升、INR延長、血小板低)合併神智改變→肝性腦病變，常由便秘、高蛋白、感染、低血鉀、出血誘發。理學見撲拍性震顫(flapping tremor)。**多數HE病人血氨升高**，故給『ammonia=32(正常)』作為此昏迷病人之檢驗最不相符(為錯誤敘述)。處置：灌腸通便、lactulose、暫時限制動物蛋白並矯正誘因。",
+   "q": "C肝肝硬化、便秘、肉食、神智不清→肝性腦病變；此情境血氨多升高，選項給ammonia正常值最不符。",
+   "bg": "肝硬化失代償(白蛋白低、膽紅素升、INR延長、血小板低)合併神智改變→肝性腦病變，常由便秘、高蛋白、感染、低血鉀、出血誘發。理學見撲拍性震顫(flapping tremor)。**多數HE病人血氨升高**，故給ammonia=32(正常)作為此昏迷病人之檢驗最不相符(為錯誤敘述)。處置：灌腸通便、lactulose、暫時限制動物蛋白並矯正誘因。",
    "op": {
     "A": "撲拍性震顫常見，正確。",
     "B": "錯誤(本題選錯者)。此HE病人血氨應升高，給正常值不符。",
@@ -2009,7 +2009,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性藥物性肝炎(AST/ALT顯著升、超音波正常)若未致肝衰竭，多可痊癒，『日後仍演變慢性肝病』敘述錯誤。",
+   "q": "急性藥物性肝炎(AST/ALT顯著升、超音波正常)若未致肝衰竭，多可痊癒，日後仍演變慢性肝病敘述錯誤。",
    "bg": "藥物性肝損傷(DILI)可為肝細胞型(AST/ALT顯著升)、膽汁滯留型或混合型。多數停藥後恢復，**未進展至急性肝衰竭者通常痊癒，不會固定演變為慢性肝病**。本例AST/ALT高、超音波正常，須查HBsAg/anti-HCV與用藥史。",
    "op": {
     "A": "HBsAg(+)應為B肝急性發作，合理。",
@@ -2239,7 +2239,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "anti-HAV IgM(+)＋HBsAg(+)＋anti-HBc IgG(+)、IgM(−)→慢性B肝帶原合併『急性A型肝炎』。",
+   "q": "anti-HAV IgM(+)＋HBsAg(+)＋anti-HBc IgG(+)、IgM(−)→慢性B肝帶原合併急性A型肝炎。",
    "bg": "血清學判讀：HBsAg(+)＋anti-HBc **IgG**(+)而IgM(−)→慢性B肝帶原(非急性B肝)；**anti-HAV IgM(+)→急性A型肝炎**。故本例為B肝帶原者疊加急性A肝感染所致肝炎發作。",
    "op": {
     "A": "A肝無慢性帶原，A肝為急性。",
@@ -2277,7 +2277,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性B型肝炎(HBeAg+、DNA高)若需抗病毒應用核苷(酸)類似物；『干擾素』在急性重症B肝不宜使用。",
+   "q": "急性B型肝炎(HBeAg+、DNA高)若需抗病毒應用核苷(酸)類似物；干擾素在急性重症B肝不宜使用。",
    "bg": "急性B肝大多自限痊癒(成人>95%)。重症或猛爆性傾向者可用核苷(酸)類似物(entecavir、tenofovir等)；**干擾素(包括peg-IFN)在急性/重症肝炎時禁忌**(可加重發炎、誘發肝衰竭)。lamivudine、telbivudine、entecavir皆屬核苷(酸)類似物可用。",
    "op": {
     "A": "lamivudine屬核苷類似物可用。",
@@ -2429,7 +2429,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "飲酒易臉紅心悸者多為ALDH2缺乏→乙醛代謝『差』而堆積，並非代謝能力強。",
+   "q": "飲酒易臉紅心悸者多為ALDH2缺乏→乙醛代謝差而堆積，並非代謝能力強。",
    "bg": "酒精經ADH氧化成乙醛、再經**乙醛脫氫酶(ALDH2)**氧化成乙酸。東亞常見ALDH2*2突變→酵素活性低、乙醛堆積→飲酒臉紅、心悸、噁心(且增加食道癌風險)。女性因體脂/ADH差異對等量酒精更易肝傷害。酒精性肝硬化較病毒性更易見蜘蛛痣。",
    "op": {
     "A": "正確。女性對同量酒精耐受較差。",
@@ -2467,7 +2467,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "SAAG<1.1屬非門脈高壓性腹水，選項中以『腎病症候群』最符合。",
+   "q": "SAAG<1.1屬非門脈高壓性腹水，選項中以腎病症候群最符合。",
    "bg": "SAAG<1.1(非門脈高壓性)病因：腹膜癌、結核性腹膜炎、胰源性/膽源性腹水、**腎病症候群(低白蛋白)**、漿膜炎。肝硬化、心衰、Budd-Chiari屬SAAG≥1.1。本例SAAG<1.1→腎病症候群。",
    "op": {
     "A": "肝硬化SAAG≥1.1。",
@@ -2545,7 +2545,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "健檢bili 3.0/0.4(以間接型為主)→溶血/Gilbert/rifampin競爭攝取皆可；Rotor氏為『直接型』升高，最不可能。",
+   "q": "健檢bili 3.0/0.4(以間接型為主)→溶血/Gilbert/rifampin競爭攝取皆可；Rotor氏為直接型升高，最不可能。",
    "bg": "非結合型(間接)高膽紅素血症病因：溶血(如G6PD缺乏)、Gilbert syndrome(UGT活性低)、藥物(rifampin抑制肝攝取)、新生兒等。**Dubin-Johnson與Rotor為結合型(直接)高膽紅素血症**，與本例間接型為主不符，故Rotor最不可能。",
    "op": {
     "A": "G6PD缺乏致溶血→間接型升，可能。",
@@ -2659,7 +2659,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "無psoas/obturator徵象『不能』排除急性闌尾炎(這些徵象敏感度低)。",
+   "q": "無psoas/obturator徵象不能排除急性闌尾炎(這些徵象敏感度低)。",
    "bg": "急性闌尾炎典型為臍周/上腹痛於12小時內轉移至右下腹(McBurney點)，伴噁心、食慾差、低燒、白血球升。**psoas、obturator、Rovsing等徵象特異但敏感度低，陰性不能排除診斷**；闌尾炎可在24–72小時內壞疽穿孔。診斷常需臨床評分＋影像(CT/超音波)。",
    "op": {
     "A": "轉移痛由上腹/臍周→右下腹，正確。",
@@ -3077,7 +3077,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "近年右側大腸癌比例增加，並非『90%在脾曲以下、乙狀結腸鏡即可發現』。",
+   "q": "近年右側大腸癌比例增加，並非90%在脾曲以下、乙狀結腸鏡即可發現。",
    "bg": "大腸直腸癌危險因子：年齡≥50、一等親家族史、IBD>10年、進行性腺瘤、肥胖、糖尿病、高脂多紅肉少纖維。**近年右側(近端)大腸癌比例上升，乙狀結腸鏡無法涵蓋右側**，全大腸鏡才完整。右側癌常以貧血表現，左側以排便習慣改變/血便表現。",
    "op": {
     "A": "危險因子敘述正確。",
@@ -3497,7 +3497,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "肝硬化合併腹水者發生食道靜脈曲張出血時，反而『增加』自發性細菌性腹膜炎(SBP)風險；選項說不增加故錯。",
+   "q": "肝硬化合併腹水者發生食道靜脈曲張出血時，反而增加自發性細菌性腹膜炎(SBP)風險；選項說不增加故錯。",
    "bg": "自發性細菌性腹膜炎(SBP)多為單一腸內菌(E. coli最常見)經細菌移位感染腹水，腹水PMN≥250/mm3即診斷。可無發燒腹痛。**靜脈曲張出血會增加SBP風險，故出血時建議預防性抗生素**(ceftriaxone/norfloxacin)。腹水培養出多種菌須懷疑續發性腹膜炎(腸穿孔)。",
    "op": {
     "A": "E. coli最常見，正確。",
@@ -3535,8 +3535,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "核醫紅血球掃描(RBC scan)雖較血管攝影『敏感』，但定位較不精確；選項說可精確定位故錯。",
-   "bg": "下消化道/不明出血評估：先以上消化道內視鏡與大腸鏡排除(可能需重複)。活動性大量出血可血管攝影(找到出血點可栓塞或注vasopressin)。**99mTc-RBC掃描敏感度高(可偵測0.1–0.5 mL/min緩慢出血)但定位較不精確**，故『可精確定位幫助治療』敘述錯誤。無活動性出血時血管攝影幫助有限(除非血管豐富腫瘤或血管發育不良)。",
+   "q": "核醫紅血球掃描(RBC scan)雖較血管攝影敏感，但定位較不精確；選項說可精確定位故錯。",
+   "bg": "下消化道/不明出血評估：先以上消化道內視鏡與大腸鏡排除(可能需重複)。活動性大量出血可血管攝影(找到出血點可栓塞或注vasopressin)。**99mTc-RBC掃描敏感度高(可偵測0.1–0.5 mL/min緩慢出血)但定位較不精確**，故可精確定位幫助治療敘述錯誤。無活動性出血時血管攝影幫助有限(除非血管豐富腫瘤或血管發育不良)。",
    "op": {
     "A": "先排除上消化道及大腸、可重複檢查，正確。",
     "B": "血管攝影可栓塞/注vasopressin，正確。",
@@ -3649,7 +3649,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "C肝病人服36顆普拿疼後，不能僅保守觀察；需評估血中濃度、給NAC，不可『不進一步處理』。",
+   "q": "C肝病人服36顆普拿疼後，不能僅保守觀察；需評估血中濃度、給NAC，不可不進一步處理。",
    "bg": "acetaminophen大量過量(36×500mg=18g)屬高劑量肝毒性風險，**不可僅保守觀察**。處置：測4小時後血中濃度對照Rumack-Matthew nomogram、給N-acetylcysteine(早期最有效)、早期(<1–2小時)可考慮活性碳、追肝腎功能與凝血、查鉀。C肝/慢性肝病/飲酒者風險更高。",
    "op": {
     "A": "考慮給acetylcysteine，正確。",
@@ -3687,7 +3687,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "acetaminophen肝傷害為劑量相關、血中濃度與嚴重度相關；但未致肝衰竭者多痊癒，不會『日後演變慢性肝病』。",
+   "q": "acetaminophen肝傷害為劑量相關、血中濃度與嚴重度相關；但未致肝衰竭者多痊癒，不會日後演變慢性肝病。",
    "bg": "acetaminophen中毒造成劑量相關的中央小葉壞死(AST/ALT顯著升)，血中濃度(對照nomogram)與嚴重度相關，可併發急性腎衰竭。**未進展至急性肝衰竭者通常完全恢復，不會固定演變為慢性肝病**。治療為NAC。",
    "op": {
     "A": "劑量相關，正確。",
@@ -3725,7 +3725,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "尿液中測得的膽紅素是『結合型(conjugated/direct)』，因只有結合型才水溶可由腎排出；選項說是unconjugated故錯。",
+   "q": "尿液中測得的膽紅素是結合型(conjugated/direct)，因只有結合型才水溶可由腎排出；選項說是unconjugated故錯。",
    "bg": "非結合型(間接)膽紅素與白蛋白結合、不溶於水、不經尿排出；**只有結合型(直接)膽紅素水溶，過量時才出現尿膽紅素**。本例direct 1.5、尿膽紅素(+)→屬結合型高膽紅素。病史應問藥物/溶血；脾大、無效造血或Gilbert可致間接型升高。",
    "op": {
     "A": "病史問藥物與溶血，正確。",
@@ -3841,7 +3841,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "幽門桿菌感染『不』增加逆流性食道炎(reflux esophagitis)風險(甚至可能負相關)。",
+   "q": "幽門桿菌感染不增加逆流性食道炎(reflux esophagitis)風險(甚至可能負相關)。",
    "bg": "H. pylori增加消化性潰瘍、胃腺癌(非賁門)、胃MALT淋巴瘤風險；但**對胃食道逆流/逆流性食道炎並無增加(部分研究呈負相關，除菌後胃酸恢復偶使GERD顯現)**。",
    "op": {
     "A": "正解。Hp不增加逆流性食道炎。",
@@ -3879,7 +3879,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "小型肝細胞癌最常見的『症狀』是通常沒有症狀(靠篩檢發現)。",
+   "q": "小型肝細胞癌最常見的症狀是通常沒有症狀(靠篩檢發現)。",
    "bg": "小型HCC多在B/C肝、肝硬化的監測(超音波±AFP)中被發現，**通常無症狀**；出現腹水、黃疸、吐血、體重減輕多已屬中晚期或肝功能失代償。故強調高危險群定期篩檢的重要。",
    "op": {
     "A": "正解。小型肝癌通常無症狀。",
@@ -3955,7 +3955,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "乳糖不耐症的腹瀉屬『滲透性』(非分泌性)，停用乳糖製品後改善。",
+   "q": "乳糖不耐症的腹瀉屬滲透性(非分泌性)，停用乳糖製品後改善。",
    "bg": "乳糖不耐因乳糖酶缺乏，未分解乳糖在腸腔造成**滲透性腹瀉**並經結腸菌發酵產氣→腹脹、排氣、腹痛、腹瀉；停用乳糖即改善(禁食/停乳糖改善為滲透性特徵)。亞洲人盛行率高。補充乳糖酶或含活菌優酪乳可改善。",
    "op": {
     "A": "腹脹腹瀉脹氣等症狀，正確。",
@@ -3993,7 +3993,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "原發性膽汁性膽管炎(PBC)好發『女性』(非男性)。",
+   "q": "原發性膽汁性膽管炎(PBC)好發女性(非男性)。",
    "bg": "PBC好發中年**女性**(男女比約1:9)，臨床搔癢、疲倦、黃疸、黃色瘤；>90% AMA陽性、IgM升高、膽汁滯留生化。UDCA為一線。",
    "op": {
     "A": "皮膚搔癢常見，正確。",
@@ -4069,7 +4069,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "大腸癌肝轉移、K-ras(G12D)突變者，EGFR抑制劑無效；應加用『血管增生抑制劑(抗VEGF, bevacizumab)』。",
+   "q": "大腸癌肝轉移、K-ras(G12D)突變者，EGFR抑制劑無效；應加用血管增生抑制劑(抗VEGF, bevacizumab)。",
    "bg": "轉移性大腸癌標靶：**RAS突變(如KRAS G12D)者對抗EGFR(cetuximab/panitumumab)無效**，僅RAS/BRAF野生型且左側原發者適用抗EGFR。**RAS突變者可用抗VEGF(bevacizumab)合併化療**，作為轉化治療使肝轉移可切除。",
    "op": {
     "A": "K-ras突變者EGFR抑制劑無效。",
@@ -4183,7 +4183,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "酒精性肝傷害典型AST>ALT且多<300–500；『ALT>2000』反指向病毒/缺血/毒性肝炎，不支持酒精性。",
+   "q": "酒精性肝傷害典型AST>ALT且多<300–500；ALT>2000反指向病毒/缺血/毒性肝炎，不支持酒精性。",
    "bg": "酒精性肝病生化特徵：**AST/ALT比值>2(常>2)**、絕對值通常輕中度升高(多<300–400 U/L)、GGT升高、超音波脂肪肝。**轉氨酶>1000(如ALT>2000)反而提示急性病毒性、缺血性或藥物/毒物肝炎**，不符酒精性。",
    "op": {
     "A": "ALT<AST(AST/ALT>1)支持酒精性。",
@@ -4374,8 +4374,8 @@
   "cn": "第29題答Ｂ、Ｄ給分，第35題答Ｂ、Ｄ給分，第36題一律給分，第58題一律給分，第64題 答Ｂ、Ｄ給分。",
   "img": [],
   "ex": {
-   "q": "幽門桿菌相關敘述題；本題經更正『答B或D者均給分』。胃潰瘍Hp盛行率低於十二指腸潰瘍為一般共識。",
-   "bg": "H. pylori重點：urease test(快速尿素酶)診斷率高、為常用；消化性潰瘍與低度惡性胃MALT淋巴瘤者需除菌；除菌後不一定增加GERD;**十二指腸潰瘍的Hp盛行率高於胃潰瘍**。本題經M檔更正『第29題答Ｂ、Ｄ給分』(多重答案均給分)。",
+   "q": "幽門桿菌相關敘述題；本題經更正答B或D者均給分。胃潰瘍Hp盛行率低於十二指腸潰瘍為一般共識。",
+   "bg": "H. pylori重點：urease test(快速尿素酶)診斷率高、為常用；消化性潰瘍與低度惡性胃MALT淋巴瘤者需除菌；除菌後不一定增加GERD;**十二指腸潰瘍的Hp盛行率高於胃潰瘍**。本題經M檔更正第29題答Ｂ、Ｄ給分(多重答案均給分)。",
    "op": {
     "A": "urease test診斷率不低，敘述有誤。",
     "B": "(更正給分)無潰瘍消化不良是否需除菌有共識爭議。",
@@ -4526,8 +4526,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "AST/ALT顯著升、ALP接近正常、INR延長→肝細胞型(可能急性肝衰竭)；『最可能為急性膽管炎』敘述錯誤(膽管炎應ALP明顯升)。",
-   "bg": "本例bili 7.2(direct 4)、AST 478/ALT 356、**ALP僅102(接近正常)**、INR 3.1→**肝細胞型黃疸合併凝血異常(急性肝損/肝衰竭)**，病因可為病毒、自體免疫、毒物/藥物、代謝。**急性膽管炎(膽道阻塞)應呈ALP明顯升高且超音波膽管擴張**，與此ALP正常、INR延長不符，故『最可能為急性膽管炎』錯誤。",
+   "q": "AST/ALT顯著升、ALP接近正常、INR延長→肝細胞型(可能急性肝衰竭)；最可能為急性膽管炎敘述錯誤(膽管炎應ALP明顯升)。",
+   "bg": "本例bili 7.2(direct 4)、AST 478/ALT 356、**ALP僅102(接近正常)**、INR 3.1→**肝細胞型黃疸合併凝血異常(急性肝損/肝衰竭)**，病因可為病毒、自體免疫、毒物/藥物、代謝。**急性膽管炎(膽道阻塞)應呈ALP明顯升高且超音波膽管擴張**，與此ALP正常、INR延長不符，故最可能為急性膽管炎錯誤。",
    "op": {
     "A": "屬肝細胞性黃疸，正確。",
     "B": "超音波膽管多無異常(肝細胞型)，正確。",
@@ -4564,7 +4564,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "多發性肝癌的栓塞治療(TAE/TACE)可改善存活、是標準治療，並非『只增加死亡率不宜考慮』。",
+   "q": "多發性肝癌的栓塞治療(TAE/TACE)可改善存活、是標準治療，並非只增加死亡率不宜考慮。",
    "bg": "HCC治療：小型單發可手術切除或電燒(curative)；**無法手術的多發、無大血管侵犯者，TACE/TAE為標準且可延長存活**(非增死亡率)。術後追蹤含腹部超音波與AFP。",
    "op": {
     "A": "<5cm單發切除可根除，正確。",
@@ -4642,7 +4642,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "膽酸主要在『迴腸末端』再吸收(腸肝循環)，非空腸；其餘敘述正確。",
+   "q": "膽酸主要在迴腸末端再吸收(腸肝循環)，非空腸；其餘敘述正確。",
    "bg": "膽酸由肝臟以膽固醇合成、分泌入膽汁助脂肪吸收，**約95%在迴腸末端主動再吸收回肝(腸肝循環)**。迴腸切除/疾病→膽酸吸收不良→脂肪痢、脂溶性維生素(A/D/E/K)缺乏。PBC等膽汁分泌異常亦致脂肪痢與鈣/維生素D吸收不良。",
    "op": {
     "A": "無法由食物攝取(體內合成)，正確。",
@@ -4680,7 +4680,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "猛爆性肝炎常見原因為藥物、A肝、B肝等；『熬夜』不會引起猛爆性肝炎。",
+   "q": "猛爆性肝炎常見原因為藥物、A肝、B肝等；熬夜不會引起猛爆性肝炎。",
    "bg": "猛爆性(急性)肝衰竭常見病因：**藥物/毒物(acetaminophen、特異質藥物、毒蕈)、急性病毒性肝炎(A、B、E、HBV+HDV)、自體免疫、Wilson、缺血、妊娠相關**。熬夜並非病因。",
    "op": {
     "A": "藥物為常見原因。",
@@ -4722,7 +4722,7 @@
   "img": [],
   "ex": {
    "q": "幽門桿菌與萎縮性胃炎、胃MALT淋巴瘤、十二指腸潰瘍相關；與逆流性食道炎無關(本題經更正一律給分)。",
-   "bg": "H. pylori與消化性潰瘍、萎縮性胃炎、胃腺癌、胃MALT(B細胞)淋巴瘤相關；**與逆流性食道炎(reflux esophagitis)無關甚或負相關**。本題經M檔更正『第28題一律給分』。",
+   "bg": "H. pylori與消化性潰瘍、萎縮性胃炎、胃腺癌、胃MALT(B細胞)淋巴瘤相關；**與逆流性食道炎(reflux esophagitis)無關甚或負相關**。本題經M檔更正第28題一律給分。",
    "op": {
     "A": "逆流性食道炎與Hp無關(原設計答案；本題已一律給分)。",
     "B": "萎縮性胃炎與Hp相關。",
@@ -4797,7 +4797,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "Ranson計分項目不含『血清鉀』；血鈣與血比容、動脈血氧才是項目。",
+   "q": "Ranson計分項目不含血清鉀；血鈣與血比容、動脈血氧才是項目。",
    "bg": "Ranson評分(48小時內)項目含入院時(年齡、WBC、血糖、AST、LDH)與48小時內變化(血比容下降、BUN上升、**血鈣下降**、**動脈血氧PaO2下降**、鹼缺失、體液滯留)。**血清鉀非Ranson項目**。",
    "op": {
     "A": "血比容為Ranson項目。",
@@ -4951,7 +4951,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "旅行者腹瀉不應常規使用抗生素『預防』；多自限，治療以補液為主。",
+   "q": "旅行者腹瀉不應常規使用抗生素預防；多自限，治療以補液為主。",
    "bg": "旅行者腹瀉以細菌(ETEC等)最常見、多自限，治療核心為補液，中重度可短程抗生素治療。**不建議常規預防性抗生素**(抗藥/副作用)，可用bismuth subsalicylate預防、注重飲食衛生。",
    "op": {
     "A": "正解(錯誤)。不應常規使用抗生素預防。",
@@ -5027,7 +5027,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性感染性腹瀉(發燒)不應立即給『強力止瀉藥』，恐使侵襲性感染/毒素滯留惡化。",
+   "q": "急性感染性腹瀉(發燒)不應立即給強力止瀉藥，恐使侵襲性感染/毒素滯留惡化。",
    "bg": "急性發燒性感染性腹瀉處置核心為**補充水分電解質**、送糞便檢查(白血球、寄生蟲卵、培養)；**侵襲性/發炎性腹瀉(發燒、血便)不宜使用強力止瀉劑(loperamide)**以免延長病程或誘發毒性巨結腸。糞便有膿細胞時在確認前可經驗性抗生素(quinolone或metronidazole)。",
    "op": {
     "A": "應查感染性腹瀉病因，正確。",
@@ -5217,7 +5217,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "胃息肉『越大惡性機率越大』(非越小)；其餘關於症候群、FAP、增生性息肉最常見皆正確。",
+   "q": "胃息肉越大惡性機率越大(非越小)；其餘關於症候群、FAP、增生性息肉最常見皆正確。",
    "bg": "胃息肉：增生性息肉最常見(惡性潛能低)、腺瘤性息肉(惡性潛能較高、越大越易惡性)。相關症候群：Peutz-Jeghers、Gardner(FAP變異)、家族性大腸息肉症。FAP惡性機率高。**息肉越大惡性機率越大**，選項說越小故錯。",
    "op": {
     "A": "相關症候群敘述正確。",
@@ -5297,7 +5297,7 @@
   "img": [],
   "ex": {
    "q": "年輕、間接型膽紅素輕升、其餘肝功能與肝炎標記正常、無症狀→Gilbert氏症候群(本題經更正一律給分)。",
-   "bg": "Gilbert syndrome為良性、常見的UGT1A1活性降低，致**輕度非結合型(間接)高膽紅素血症**，禁食/壓力/感染時加重，肝功能其餘正常、無溶血、無症狀，不需治療。Dubin-Johnson/Rotor為結合型;肝內膽汁滯留會ALP升。本題M檔更正『一律給分』。",
+   "bg": "Gilbert syndrome為良性、常見的UGT1A1活性降低，致**輕度非結合型(間接)高膽紅素血症**，禁食/壓力/感染時加重，肝功能其餘正常、無溶血、無症狀，不需治療。Dubin-Johnson/Rotor為結合型;肝內膽汁滯留會ALP升。本題M檔更正一律給分。",
    "op": {
     "A": "肝內膽汁滯留會ALP升、不符。",
     "B": "Dubin-Johnson為結合型。",
@@ -5334,8 +5334,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "B肝聚合酶YMDD區變異與『抗藥性(lamivudine)』相關，並非自然演化。",
-   "bg": "B肝病毒變異：precore G1896A(→HBeAg陰性慢B肝)、core-promoter變異(複製增加、進展快)、表面抗原『a』決定簇變異(疫苗/抗體逃逸)、**聚合酶YMDD motif變異(rtM204V/I)→對lamivudine等核苷類似物抗藥**。故YMDD變異與抗藥治療相關，非自然演化。",
+   "q": "B肝聚合酶YMDD區變異與抗藥性(lamivudine)相關，並非自然演化。",
+   "bg": "B肝病毒變異：precore G1896A(→HBeAg陰性慢B肝)、core-promoter變異(複製增加、進展快)、表面抗原a決定簇變異(疫苗/抗體逃逸)、**聚合酶YMDD motif變異(rtM204V/I)→對lamivudine等核苷類似物抗藥**。故YMDD變異與抗藥治療相關，非自然演化。",
    "op": {
     "A": "precore變異與HBeAg陰性相關，正確。",
     "B": "表面抗原變異可現於anti-HBs陽性者，正確。",
@@ -5413,7 +5413,7 @@
    "q": "一般風險族群每1–2年以免疫法糞便潛血(FIT)篩檢大腸癌是好方法。",
    "bg": "大腸癌篩檢：一般風險者**每1–2年免疫法糞便潛血(FIT)**或每10年大腸鏡；IBD於發病8–10年起每1–2年大腸鏡監測;有一等親大腸癌者建議提早(常40歲或比最年輕病例早10年)且大腸鏡間隔較短(非每5年從50歲)。腺瘤切除後依病理3–5年追蹤(非每年)。",
    "op": {
-    "A": "IBD監測8–10年後開始，非『一旦診斷』即每1–3年(敘述偏差)。",
+    "A": "IBD監測8–10年後開始，非一旦診斷即每1–3年(敘述偏差)。",
     "B": "正解。一般族群每1–2年FIT是好方法。",
     "C": "腺瘤切除後非每年追蹤。",
     "D": "一等親史應更早且間隔較短。"
@@ -5605,7 +5605,7 @@
    "op": {
     "A": "不一定良性(可惡性)。",
     "B": "不只發生於腸胃道與胰臟(如肺)。",
-    "C": "somatostatin類似物有效但非『最有效唯一』。",
+    "C": "somatostatin類似物有效但非最有效唯一。",
     "D": "正解。可合併腦下垂體與副甲狀腺瘤(MEN1)。"
    },
    "src": [
@@ -5639,7 +5639,7 @@
   "img": [],
   "ex": {
    "q": "C. difficile治療後復發率並不低於5%(實際約15–25%)。",
-   "bg": "C. difficile：健康新生兒可無症狀帶菌;多為醫療照護相關;抗生素使用為主要誘因;**治療後復發率高(約15–25%，多次復發更高)**，故『復發率常低於5%』錯誤。復發者可用fidaxomicin、延長/脈衝vancomycin、糞菌移植。",
+   "bg": "C. difficile：健康新生兒可無症狀帶菌;多為醫療照護相關;抗生素使用為主要誘因;**治療後復發率高(約15–25%，多次復發更高)**，故復發率常低於5%錯誤。復發者可用fidaxomicin、延長/脈衝vancomycin、糞菌移植。",
    "op": {
     "A": "新生兒無症狀帶菌不罕見，正確。",
     "B": "多為醫療照護相關，正確。",
@@ -5714,7 +5714,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性B型肝炎應檢測HBsAg與『IgM』anti-HBc;檢測IgG anti-HBc無法診斷急性感染，故該建議不合理。",
+   "q": "急性B型肝炎應檢測HBsAg與IgManti-HBc;檢測IgG anti-HBc無法診斷急性感染，故該建議不合理。",
    "bg": "急性B肝血清學以**HBsAg(+)＋anti-HBc IgM(+)**診斷;IgG anti-HBc代表既往或慢性感染，無法區分急性。台灣B肝盛行、慢性急性發作常見需鑑別;急性C肝可測anti-HCV→HCV RNA;ALP正常時急性膽道阻塞致肝炎機會低。",
    "op": {
     "A": "正解(不合理)。急性B肝應測IgM anti-HBc，非IgG。",
@@ -5752,8 +5752,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性C型肝炎抗病毒治療，單用長效干擾素並非『沒有用』(過去確有療效);該敘述不合理。",
-   "bg": "本例HBsAg(−)、anti-HCV由陰轉陽(近期曾接受注射)→**急性C型肝炎**。急性C肝出現黃疸者自發痊癒機率較高;持續HCV RNA者(觀察3–4月)可治療。**(出題時)單用peginterferon對急性C肝確有相當療效，故說『單用沒有用』不合理**。(現今以全口服DAA為主。)",
+   "q": "急性C型肝炎抗病毒治療，單用長效干擾素並非沒有用(過去確有療效);該敘述不合理。",
+   "bg": "本例HBsAg(−)、anti-HCV由陰轉陽(近期曾接受注射)→**急性C型肝炎**。急性C肝出現黃疸者自發痊癒機率較高;持續HCV RNA者(觀察3–4月)可治療。**(出題時)單用peginterferon對急性C肝確有相當療效，故說單用沒有用不合理**。(現今以全口服DAA為主。)",
    "op": {
     "A": "可能為急性C肝，合理。",
     "B": "黃疸者自發痊癒機率較高，合理。",
@@ -5868,7 +5868,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "肝穿刺檢體不應只『0.5 cm』即足夠——須足夠長度(常≥2–3 cm、含足夠門脈數)才能可靠判讀。",
+   "q": "肝穿刺檢體不應只0.5 cm即足夠——須足夠長度(常≥2–3 cm、含足夠門脈數)才能可靠判讀。",
    "bg": "肝穿刺切片判讀纖維化分級需足夠檢體(一般建議長度≥2–3 cm、含≥11個完整門脈),太短易低估分期。慢性C肝纖維化初始多自門脈/門脈周邊(zone 1)、NAFLD自zone 3(中央靜脈周邊);嚴重腹水或凝血異常為相對禁忌。",
    "op": {
     "A": "正解(錯誤)。檢體長度0.5 cm不足，須更長。",
@@ -5906,7 +5906,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "血清生物標誌(如FibroTest)『不能對各種病因都精準判定各等級纖維化』——其準確度因病因/分期而異。",
+   "q": "血清生物標誌(如FibroTest)不能對各種病因都精準判定各等級纖維化——其準確度因病因/分期而異。",
    "bg": "非侵入性肝纖維化評估兩大主流：血清標誌(FibroTest、APRI、FIB-4)與儀器測肝臟硬度(transient elastography FibroScan、MR elastography)。**血清標誌對區分顯著纖維化/肝硬化有用，但無法對所有病因精準分出每一等級**(過度肥胖/腹水會降低FibroScan準確度;MRE準確度較TE佳)。",
    "op": {
     "A": "兩大主流為血清標誌與儀器測硬度，正確。",
@@ -6096,12 +6096,12 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "大腸癌慢性失血造成的貧血為『小球性(缺鐵性)』貧血。",
-   "bg": "大腸癌(尤右側)常因慢性少量出血→缺鐵→**小球性低色素貧血**。右側多以貧血/腹部腫塊表現、左側以排便習慣改變/阻塞/血便為主;早期可無症狀(非『即便第一期也易有症狀』);近年右側比例增加。",
+   "q": "大腸癌慢性失血造成的貧血為小球性(缺鐵性)貧血。",
+   "bg": "大腸癌(尤右側)常因慢性少量出血→缺鐵→**小球性低色素貧血**。右側多以貧血/腹部腫塊表現、左側以排便習慣改變/阻塞/血便為主;早期可無症狀(非即便第一期也易有症狀);近年右側比例增加。",
    "op": {
     "A": "右側以貧血、左側以阻塞/血便，敘述反。",
     "B": "早期常無症狀，非易有症狀。",
-    "C": "近年右側增加，非『右側顯著多於左側』之絕對。",
+    "C": "近年右側增加，非右側顯著多於左側之絕對。",
     "D": "正解。大腸癌貧血為小球性(缺鐵)。"
    },
    "src": [
@@ -6135,7 +6135,7 @@
   "img": [],
   "ex": {
    "q": "Zollinger-Ellison症候群(胃泌素瘤)與MEN-1相關、佔消化性潰瘍0.1–1%。",
-   "bg": "Zollinger-Ellison症候群因**胃泌素瘤(gastrinoma，源自非β細胞)**過度分泌gastrin→大量胃酸、難治性/多發性潰瘍、腹瀉、逆流性食道炎，常位於『胰十二指腸三角』，**約20–25%與MEN-1相關**。多有惡性潛能與轉移。",
+   "bg": "Zollinger-Ellison症候群因**胃泌素瘤(gastrinoma，源自非β細胞)**過度分泌gastrin→大量胃酸、難治性/多發性潰瘍、腹瀉、逆流性食道炎，常位於胰十二指腸三角，**約20–25%與MEN-1相關**。多有惡性潛能與轉移。",
    "op": {
     "A": "gastrinoma非beta cell(成因敘述錯)。",
     "B": "正解。佔PUD 0.1–1%、與MEN-1相關。",
@@ -6286,7 +6286,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "懷疑闌尾炎的徵象中，『右下腹痛(right lower quadrant pain)』敏感度最高。",
+   "q": "懷疑闌尾炎的徵象中，右下腹痛(right lower quadrant pain)敏感度最高。",
    "bg": "急性闌尾炎各臨床特徵的敏感度:**右下腹痛敏感度最高**(幾乎都有);轉移痛、發燒、psoas/obturator徵象特異但敏感度較低。故以右下腹痛敏感度最高。",
    "op": {
     "A": "psoas徵象敏感度低。",
@@ -6324,7 +6324,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "血清-腹水白蛋白梯度=3.0−1.2=1.8(高,門脈高壓)且腹水蛋白2.8(高)→屬竇後/心因性；『肝硬化』(腹水蛋白通常<2.5)最不可能。",
+   "q": "血清-腹水白蛋白梯度=3.0−1.2=1.8(高,門脈高壓)且腹水蛋白2.8(高)→屬竇後/心因性；肝硬化(腹水蛋白通常<2.5)最不可能。",
    "bg": "高SAAG(≥1.1)再以**腹水總蛋白**細分:**竇後性(心衰、Budd-Chiari、竇阻塞SOS)腹水蛋白高(>2.5)**;**肝硬化(竇性、肝竇微血管化)腹水蛋白低(<2.5)**。本例SAAG 1.8(高)且腹水蛋白2.8(高)→指向心因性/竇後阻塞;**肝硬化因蛋白應偏低，故最不可能**。",
    "op": {
     "A": "早期肝靜脈栓塞(Budd-Chiari)竇後性、蛋白高，可能。",
@@ -6362,7 +6362,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "干擾素是目前唯一被證實治療HDV有效的藥，但『根治率>80%且不易復發』不正確(療效有限、復發率高)。",
+   "q": "干擾素是目前唯一被證實治療HDV有效的藥，但根治率>80%且不易復發不正確(療效有限、復發率高)。",
    "bg": "D肝(HDV)為缺陷病毒，需HBV的HBsAg才能複製;可與HBV同時急性感染(coinfection，多自限)或重疊感染慢性HBV帶原者(superinfection，易猛爆/快速肝硬化)。**(peg)interferon為過去唯一證實有效者，但療效有限、復發率高，根治率遠不到80%**(新藥bulevirtide已問世)。",
    "op": {
     "A": "可coinfection或superinfection，正確。",
@@ -6438,7 +6438,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "E型肝炎潛伏期約2–9週(平均約5–6週)，非『約24週』。",
+   "q": "E型肝炎潛伏期約2–9週(平均約5–6週)，非約24週。",
    "bg": "E型肝炎(HEV)主要經糞口(污染飲水)傳染，**潛伏期約2–9週**;多數急性自限、預後良好，孕婦(基因型1/2)死亡率高;少數免疫嚴重低下者(器官移植，基因型3)可慢性化。IgM anti-HEV為急性診斷標記。",
    "op": {
     "A": "正解(錯誤)。潛伏期約2–9週，非24週。",
@@ -6476,7 +6476,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "威爾森症最常見突變在ATP7B基因，但突變型『不只一種』(已知數百種突變)。",
+   "q": "威爾森症最常見突變在ATP7B基因，但突變型不只一種(已知數百種突變)。",
    "bg": "肝病遺傳:酒精代謝ALDH2突變致乙醛堆積(臉紅);AIH與HLA-B8/DR3/DR4相關;遺傳性血色素沉著症以HFE C282Y/H63D最常見;**威爾森症(Wilson)為ATP7B基因突變(銅代謝),但已知數百種突變，並非只有一種**。",
    "op": {
     "A": "ALDH2突變致乙醛堆積、臉紅，正確。",
@@ -6553,7 +6553,7 @@
   "img": [],
   "ex": {
    "q": "食道靜脈曲張、脾腫大/脾亢、腹水皆直接源於門脈高壓；肝性腦病變與門脈高壓的相關性相對較低(主為肝功能/分流)。",
-   "bg": "門脈高壓直接後果:側枝循環(食道胃靜脈曲張、caput medusae)、脾腫大併脾功能亢進、腹水。**肝性腦病變主因肝細胞功能衰竭與門體分流下的氨/毒素清除不足，與『門脈壓力高低』的直接相關性相對較低**(本題答A)。",
+   "bg": "門脈高壓直接後果:側枝循環(食道胃靜脈曲張、caput medusae)、脾腫大併脾功能亢進、腹水。**肝性腦病變主因肝細胞功能衰竭與門體分流下的氨/毒素清除不足，與門脈壓力高低的直接相關性相對較低**(本題答A)。",
    "op": {
     "A": "正解。肝性腦病變與門脈高壓的相關性相對較低。",
     "B": "食道靜脈曲張直接源於門脈高壓。",
@@ -6742,7 +6742,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "Krukenberg瘤常見原發部位為胃、大腸、乳房；『肺』不是常見原發。",
+   "q": "Krukenberg瘤常見原發部位為胃、大腸、乳房；肺不是常見原發。",
    "bg": "Krukenberg瘤(雙側卵巢轉移、印戒細胞/黏液腺癌)常見原發為**胃(最多)、大腸、乳房、闌尾**等腸胃道與乳腺;**肺不是常見原發部位**。",
    "op": {
     "A": "大腸為常見原發。",
@@ -6820,7 +6820,7 @@
    "data:image/jpeg;base64,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86Ptcw/5at+daP8Awhvin/oWdd/8F83/AMTR/wAIZ4p/6FnXf/BfN/8AE1X1qfcPYrsUEvZxn9634k0G6mPWRvzrQHg3xR/0LOu/+C+b/wCJpf8AhDfFH/Qs67/4L5v/AImj61PuL2K7GW08pI/eN+Zo+0y/89G/OtM+DfFH/Qs67/4L5v8A4mk/4QzxT/0LOu/+C+b/AOJp/Wp9xqkuxltcS9PMb86j3NnO9/zrWPgzxTn/AJFnXf8AwXzf/E0n/CGeKf8AoWdd/wDBfN/8TWTxU+5oqS7GWZn/ALxpPOb1rUPgvxVn/kWdd/8ABfN/8TSf8IX4q/6FnXf/AAXzf/E0/rM7bh7NdjJMrkn5j+dNJLdWP51rHwX4pz/yLGvf+C+b/wCJo/4QvxT/ANCxr3/gvm/+JrN4mfc0UF2MgAL/APXpSc+30rW/4QvxT/0LGvf+C+b/AOJo/wCEL8U/9Cxr3/gvm/8AiaTqeZPs/IyOBUbcmto+CvFX/Qsa9/4L5v8A4mmnwV4q/wChY17/AMF83/xNZup5jt5GPSE8Vsf8IV4r/wChX17/AMF83/xNB8FeKz/zK+vf+C+b/wCJpuaHZmJk0FiBW1/whHir/oV9e/8ABfN/8TSHwR4rx/yK+vf+C+b/AOJrJyQcrMXeaAxPWtj/AIQjxX/0K+vf+C+b/wCJo/4QnxWP+ZX17/wXzf8AxNF0VZmPTXOMVtf8IT4r/wChX17/AMF83/xNIfBHis/8yvr3/gum/wDiaTaGkzEyaCc1tf8ACD+K/wDoVte/8F03/wATR/wg/iv/AKFbXv8AwXTf/E1N0VZmJQTW3/wg/iv/AKFbXv8AwXTf/E0h8D+K/wDoVte/8F03/wATSbQWZiZozW1/whHiv/oVte/8F03/AMTR/wAIR4r/AOhW17/wXTf/ABNTdBZmLmkJOa2/+EI8V/8AQra9/wCC6b/4mmnwP4sz/wAitr//AILpv/iaGxpMxcmjJra/4QfxZ/0K2v8A/gum/wDiaP8AhB/Fn/Qra/8A+C6b/wCJpXHZmLk0lbf/AAg/iz/oVtf/APBdN/8AE0f8IP4s/wChW1//AMF03/xNFwszEorb/wCEH8Wf9Ctr/wD4Lpv/AImii4WZ+kNFFFcp0hRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z"
   ],
   "ex": {
-   "q": "肝超音波箭號病灶若呈囊性以外特徵，最不可能是『單純性囊腫』(單純囊腫為無回音、後方增強、邊界銳利)。",
+   "q": "肝超音波箭號病灶若呈囊性以外特徵，最不可能是單純性囊腫(單純囊腫為無回音、後方增強、邊界銳利)。",
    "bg": "肝超音波病灶鑑別:**單純性囊腫**為無回音(anechoic)、後方聲影增強、壁薄邊界清;肝膿瘍、原發性肝癌、轉移癌多為實質性或複雜回音病灶。當箭號病灶呈實質/複雜表現時，**最不可能為單純性囊腫**。",
    "op": {
     "A": "肝膿瘍可呈複雜病灶，可能。",
@@ -6858,8 +6858,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "C肝快速進展因子為男性、酗酒、年長感染、共病;『女性』非加速因素(女性病程相對較慢)。",
-   "bg": "慢性C肝自然史:20–30年約20–25%進展肝硬化;肝硬化每年1–4%罹HCC;為西方肝移植主因之一。**快速進展因子:男性、酗酒、年齡較大時感染、合併HBV/HIV、脂肪肝、免疫抑制**。本題選項把『女性』列為快速因素故錯。",
+   "q": "C肝快速進展因子為男性、酗酒、年長感染、共病;女性非加速因素(女性病程相對較慢)。",
+   "bg": "慢性C肝自然史:20–30年約20–25%進展肝硬化;肝硬化每年1–4%罹HCC;為西方肝移植主因之一。**快速進展因子:男性、酗酒、年齡較大時感染、合併HBV/HIV、脂肪肝、免疫抑制**。本題選項把女性列為快速因素故錯。",
    "op": {
     "A": "20–30年約20–25%肝硬化，正確。",
     "B": "肝硬化每年1–4%罹HCC，正確。",
@@ -6972,7 +6972,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "B肝臨床病程嚴重度與『基因型』相關，而非與『病毒亞型(subtype)』有關;選項說與亞型有關故錯。",
+   "q": "B肝臨床病程嚴重度與基因型相關，而非與病毒亞型(subtype)有關;選項說與亞型有關故錯。",
    "bg": "HBV有≥10種基因型(A–J)。**臨床病程/併發症與基因型相關(如基因型C比B易進展肝硬化/HCC、HBeAg血清轉換較晚;基因型A對干擾素反應與HBsAg消失較佳)**,而非與血清亞型(subtype)有關。基因型B較C/D肝硬化與肝癌風險低。",
    "op": {
     "A": "至少8亞型10基因型，大致正確。",
@@ -7011,8 +7011,8 @@
   "cn": "第17題答Ｂ、Ｄ給分。",
   "img": [],
   "ex": {
-   "q": "急性B肝核苷(酸)類似物可用於重症，但『縮短疾病病程』未獲證實(本題經更正B、D均給分)。",
-   "bg": "急性B肝多自限(成人>95–99%痊癒、不轉慢性)。**重症/猛爆傾向者可用核苷(酸)類似物**;惟其能否縮短一般急性病程未有定論。若使用,建議用至HBsAg血清轉換後3個月或HBeAg轉換後6個月。本題M檔更正『答Ｂ、Ｄ均給分』。",
+   "q": "急性B肝核苷(酸)類似物可用於重症，但縮短疾病病程未獲證實(本題經更正B、D均給分)。",
+   "bg": "急性B肝多自限(成人>95–99%痊癒、不轉慢性)。**重症/猛爆傾向者可用核苷(酸)類似物**;惟其能否縮短一般急性病程未有定論。若使用,建議用至HBsAg血清轉換後3個月或HBeAg轉換後6個月。本題M檔更正答Ｂ、Ｄ均給分。",
    "op": {
     "A": "重症者可用核苷類似物，正確。",
     "B": "(更正給分)能否縮短病程未證實。",
@@ -7049,7 +7049,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "非選擇性β-阻斷劑(propranolol、nadolol)可降低食道靜脈曲張『第一次』出血機率(初級預防)。",
+   "q": "非選擇性β-阻斷劑(propranolol、nadolol)可降低食道靜脈曲張第一次出血機率(初級預防)。",
    "bg": "食道靜脈曲張:**非選擇性β-blocker(propranolol/nadolol/carvedilol)降門脈壓,用於初級與次級預防**;內視鏡靜脈結紮(EVL)對初級預防有效(非無效),且結紮為局部止血(不降門脈壓);急性出血應限制性輸血(目標Hb 7–8,非維持>10)。",
    "op": {
     "A": "正解。非選擇性β-blocker降第一次出血機率。",
@@ -7201,7 +7201,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "HNPCC(Lynch)大腸癌診斷中位年齡較『年輕』(約45歲)，非年長。",
+   "q": "HNPCC(Lynch)大腸癌診斷中位年齡較年輕(約45歲)，非年長。",
    "bg": "Lynch症候群(HNPCC)為MMR基因(hMSH2、hMLH1等)germline突變→DNA錯配修復缺損、MSI-H。**發病年齡較年輕(中位約45歲)**、右側大腸為主、合併子宮內膜、卵巢、胃、泌尿道等家族癌。",
    "op": {
     "A": "正解(錯誤)。HNPCC診斷中位年齡較年輕，非年長。",
@@ -7239,7 +7239,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "bismuth subsalicylate可用於旅行者腹瀉預防，但『不建議用於小孩』(水楊酸→Reye症候群風險)。",
+   "q": "bismuth subsalicylate可用於旅行者腹瀉預防，但不建議用於小孩(水楊酸→Reye症候群風險)。",
    "bg": "旅行者腹瀉:最常見病原為ETEC(非Salmonella);東南亞因Campylobacter對quinolone抗藥率高,治療首選**azithromycin**(孕婦可用);**bismuth subsalicylate可預防但不建議用於兒童(水楊酸成分,Reye症候群風險)**。",
    "op": {
     "A": "最常見為ETEC，非Salmonella。",
@@ -7318,7 +7318,7 @@
   "img": [],
   "ex": {
    "q": "Obturator徵檢查時髖關節保持彎曲;Psoas徵檢查時則伸直髖/膝——此敘述正確。",
-   "bg": "急腹症身體檢查:**Grey Turner徵為『腰側』瘀斑(後腹腔出血)、Cullen徵為臍周瘀斑**(選項說Grey Turner在臍周為誤);小腸阻塞初期腸音『亢進』(非低活動);**Murphy徵為右上腹深觸於吸氣時壓痛且暫停呼吸(膽囊炎)**;**Obturator徵:髖屈曲＋內旋誘發痛;Psoas徵:伸展髖部誘發痛**(本題正確敘述D)。",
+   "bg": "急腹症身體檢查:**Grey Turner徵為腰側瘀斑(後腹腔出血)、Cullen徵為臍周瘀斑**(選項說Grey Turner在臍周為誤);小腸阻塞初期腸音亢進(非低活動);**Murphy徵為右上腹深觸於吸氣時壓痛且暫停呼吸(膽囊炎)**;**Obturator徵:髖屈曲＋內旋誘發痛;Psoas徵:伸展髖部誘發痛**(本題正確敘述D)。",
    "op": {
     "A": "Grey Turner在腰側非臍周(臍周為Cullen)。",
     "B": "小腸阻塞初期腸音亢進，非低活動。",
@@ -7355,8 +7355,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "是『PSC(原發性硬化性膽管炎)』有較高膽管癌風險;選項說PBC有較高膽管癌風險故錯。",
-   "bg": "PSC(原發性硬化性膽管炎):多合併潰瘍性大腸炎、**膽管癌風險明顯增加**、影像呈膽管串珠狀狹窄、p-ANCA可陽性。PBC:好發女性、AMA陽性、UDCA改善存活、膽管癌風險不如PSC高。故『PBC有較高膽管癌風險』錯誤。",
+   "q": "是PSC(原發性硬化性膽管炎)有較高膽管癌風險;選項說PBC有較高膽管癌風險故錯。",
+   "bg": "PSC(原發性硬化性膽管炎):多合併潰瘍性大腸炎、**膽管癌風險明顯增加**、影像呈膽管串珠狀狹窄、p-ANCA可陽性。PBC:好發女性、AMA陽性、UDCA改善存活、膽管癌風險不如PSC高。故PBC有較高膽管癌風險錯誤。",
    "op": {
     "A": "PSC常合併UC，正確。",
     "B": "正解(錯誤)。應是PSC而非PBC有較高膽管癌風險。",
@@ -7397,7 +7397,7 @@
   "img": [],
   "ex": {
    "q": "原發性(隱源性)化膿性肝膿瘍在台灣最常見為Klebsiella pneumoniae，非E. coli(本題經更正一律給分)。",
-   "bg": "肝膿瘍:血行散布者多單一菌(S. aureus、Streptococcus);膽道/腸源性多為多菌(腸內G(−));**台灣原發性肝膿瘍最常見為Klebsiella pneumoniae(糖尿病可併眼內炎)**;標準處理為引流＋抗生素。本題M檔更正『一律給分』。",
+   "bg": "肝膿瘍:血行散布者多單一菌(S. aureus、Streptococcus);膽道/腸源性多為多菌(腸內G(−));**台灣原發性肝膿瘍最常見為Klebsiella pneumoniae(糖尿病可併眼內炎)**;標準處理為引流＋抗生素。本題M檔更正一律給分。",
    "op": {
     "A": "血行散布多單一菌(S. aureus/Strep)，敘述大致可。",
     "B": "原設計答案:原發性肝膿瘍台灣以Klebsiella而非E. coli(本題已一律給分)。",
@@ -7436,8 +7436,8 @@
    "data:image/jpeg;base64,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"
   ],
   "ex": {
-   "q": "B肝『過往感染』者仍可能存在隱匿性B肝(occult HBV)、肝內cccDNA，並非『目前不可能偵測到病毒』。",
-   "bg": "B肝血清判讀:anti-HBc(+)、HBsAg(−)可為過往感染或隱匿性感染;**隱匿性B肝(occult HBV)在HBsAg陰性下肝內仍有cccDNA、血中可低量HBV DNA,免疫抑制時可再活化**。故『過往感染者目前不可能偵測到病毒』錯誤。anti-HBs單獨陽性可為疫苗後。",
+   "q": "B肝過往感染者仍可能存在隱匿性B肝(occult HBV)、肝內cccDNA，並非目前不可能偵測到病毒。",
+   "bg": "B肝血清判讀:anti-HBc(+)、HBsAg(−)可為過往感染或隱匿性感染;**隱匿性B肝(occult HBV)在HBsAg陰性下肝內仍有cccDNA、血中可低量HBV DNA,免疫抑制時可再活化**。故過往感染者目前不可能偵測到病毒錯誤。anti-HBs單獨陽性可為疫苗後。",
    "op": {
     "A": "個案1可為HBeAg陰性慢B或急性後期，合理。",
     "B": "個案2慢性帶原，合理。",
@@ -7474,7 +7474,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "干擾素禁用於『失代償性肝硬化』(可誘發肝衰竭/感染);選項說失代償也可用故錯。",
+   "q": "干擾素禁用於失代償性肝硬化(可誘發肝衰竭/感染);選項說失代償也可用故錯。",
    "bg": "慢性B肝治療:核苷(酸)類似物抑制力與安全性佳(entecavir、tenofovir為一線);**(peg)interferon優點為固定療程、無抗藥性,但禁用於失代償性肝硬化(可致惡化、感染)**;tenofovir(TDF)需監測腎功能與骨密度;肝硬化且HBV DNA≥2000應治療。",
    "op": {
     "A": "藥效排序之細節此處不展開(惟tenofovir抑制力強)。",
@@ -7627,7 +7627,7 @@
   "img": [],
   "ex": {
    "q": "Lynch(非息肉性)症候群腺瘤好發近端大腸、可癌化，並合併子宮內膜及卵巢腫瘤等。",
-   "bg": "遺傳性息肉症候群:FAP為大量腺瘤(可癌化)但**不以『先天性異常』為主特徵(該選項描述偏Gardner)**;Peutz-Jeghers為**錯構瘤(hamartoma)非腺瘤**;Turcot合併腦瘤(非僅骨瘤等,該描述偏Gardner);**Lynch(HNPCC)腺瘤好發近端大腸、可癌化,合併子宮內膜/卵巢腫瘤,亦增胃/泌尿/胰/膽道癌風險**(本題答D)。",
+   "bg": "遺傳性息肉症候群:FAP為大量腺瘤(可癌化)但**不以先天性異常為主特徵(該選項描述偏Gardner)**;Peutz-Jeghers為**錯構瘤(hamartoma)非腺瘤**;Turcot合併腦瘤(非僅骨瘤等,該描述偏Gardner);**Lynch(HNPCC)腺瘤好發近端大腸、可癌化,合併子宮內膜/卵巢腫瘤,亦增胃/泌尿/胰/膽道癌風險**(本題答D)。",
    "op": {
     "A": "FAP之伴隨先天異常描述偏Gardner。",
     "B": "Peutz-Jeghers為錯構瘤非腺瘤。",
@@ -7664,7 +7664,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "AST=100 U/L僅代表肝細胞發炎，不能代表已有『肝硬化』;血小板低、白蛋白低、INR>2.2才反映肝硬化/失代償。",
+   "q": "AST=100 U/L僅代表肝細胞發炎，不能代表已有肝硬化;血小板低、白蛋白低、INR>2.2才反映肝硬化/失代償。",
    "bg": "肝硬化/門脈高壓與肝功能失代償的指標:**血小板低下(脾亢)、白蛋白低、INR延長、膽紅素升**。**AST/ALT僅反映肝細胞發炎程度,不代表纖維化/肝硬化**(本題答D)。",
    "op": {
     "A": "血小板70k提示脾亢/肝硬化。",
@@ -7780,7 +7780,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "術後沾黏致小腸阻塞;『澱粉酶上升10倍以上』是急性胰臟炎表現，與腸阻塞不符故錯。",
+   "q": "術後沾黏致小腸阻塞;澱粉酶上升10倍以上是急性胰臟炎表現，與腸阻塞不符故錯。",
    "bg": "機械性小腸阻塞(常因術後沾黏):陣發絞痛、嘔吐、腹脹、腸音高亢、不排便排氣;KUB見小腸擴張、階梯狀氣液平面而大腸氣少。處置先鼻胃管減壓、輸液、矯正電解質;無絞窄者保守。**澱粉酶顯著(>10倍)上升是急性胰臟炎,非腸阻塞典型**(腸阻塞/缺血可輕度升)。",
    "op": {
     "A": "小腸擴張、氣液平面、看不到大腸氣，正確。",
@@ -7818,8 +7818,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "『大便解不乾淨就表示直腸長腫瘤』不正確;tenesmus非腫瘤專屬，需綜合警訊判斷。",
-   "bg": "年輕業務員、慢性下腹痛伴排便習慣改變、排便後緩解→較像IBS。**『裏急後重/排不乾淨感』不等於直腸腫瘤**(IBS、發炎亦可);評估應問誘因、內外科史、家族大腸癌史、留意糞便型態顏色與體重變化等警訊。夜間排便/體重減輕/血便才需警覺器質病變。",
+   "q": "大便解不乾淨就表示直腸長腫瘤不正確;tenesmus非腫瘤專屬，需綜合警訊判斷。",
+   "bg": "年輕業務員、慢性下腹痛伴排便習慣改變、排便後緩解→較像IBS。**裏急後重/排不乾淨感不等於直腸腫瘤**(IBS、發炎亦可);評估應問誘因、內外科史、家族大腸癌史、留意糞便型態顏色與體重變化等警訊。夜間排便/體重減輕/血便才需警覺器質病變。",
    "op": {
     "A": "問誘因、過去史、家族大腸腫瘤史，正確。",
     "B": "正解(錯誤)。排不乾淨不代表直腸腫瘤。",
@@ -8084,8 +8084,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "Charcot三聯＝右上腹痛、發燒(寒顫)、黃疸;『可觸及脹大膽囊』不是三聯條件。",
-   "bg": "急性膽管炎的**Charcot三聯=右上腹/上腹痛、發冷發熱、黃疸**;若再加低血壓與意識改變則為Reynolds五聯(化膿性膽管炎,需急診膽道引流)。**『可觸及脹大膽囊』(Courvoisier徵)指向胰頭癌/壺腹癌之無痛性阻塞,非Charcot三聯**。",
+   "q": "Charcot三聯＝右上腹痛、發燒(寒顫)、黃疸;可觸及脹大膽囊不是三聯條件。",
+   "bg": "急性膽管炎的**Charcot三聯=右上腹/上腹痛、發冷發熱、黃疸**;若再加低血壓與意識改變則為Reynolds五聯(化膿性膽管炎,需急診膽道引流)。**可觸及脹大膽囊(Courvoisier徵)指向胰頭癌/壺腹癌之無痛性阻塞,非Charcot三聯**。",
    "op": {
     "A": "正解。可觸及脹大膽囊非Charcot三聯之一。",
     "B": "右上腹/上腹痛為三聯之一。",
@@ -8161,7 +8161,7 @@
   "img": [],
   "ex": {
    "q": "服用抗發炎之mesalazine可減少症狀性憩室疾病復發。",
-   "bg": "大腸憩室病:多數無症狀;**並非大多需手術**(多保守);診斷以CT(非plain film)為佳;**mesalazine等可減少症狀性憩室疾病復發**;抽菸是憩室炎危險因子(非『非危險因子』)。",
+   "bg": "大腸憩室病:多數無症狀;**並非大多需手術**(多保守);診斷以CT(非plain film)為佳;**mesalazine等可減少症狀性憩室疾病復發**;抽菸是憩室炎危險因子(非非危險因子)。",
    "op": {
     "A": "多數憩室炎不需手術。",
     "B": "診斷以CT佳，非plain film。",
@@ -8274,8 +8274,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "食道裂孔疝氣以『滑動型(sliding)』最常見，食道旁(paraesophageal)疝氣較少見。",
-   "bg": "食道裂孔疝氣:部分胃經膈肌食道裂孔上移入胸腔;分**滑動型(I型,GEJ與胃底上移,最常見約95%)**與食道旁(II–IV型,GEJ位置正常但胃底疝出,較少但易嵌頓);滑動型指GEJ上移至胸腔。故『食道旁疝氣較常見』錯誤。",
+   "q": "食道裂孔疝氣以滑動型(sliding)最常見，食道旁(paraesophageal)疝氣較少見。",
+   "bg": "食道裂孔疝氣:部分胃經膈肌食道裂孔上移入胸腔;分**滑動型(I型,GEJ與胃底上移,最常見約95%)**與食道旁(II–IV型,GEJ位置正常但胃底疝出,較少但易嵌頓);滑動型指GEJ上移至胸腔。故食道旁疝氣較常見錯誤。",
    "op": {
     "A": "部分胃滑脫至裂孔上方，正確。",
     "B": "分滑動型與食道旁型，正確。",
@@ -8315,7 +8315,7 @@
   ],
   "ex": {
    "q": "門脈內血栓(portal vein thrombosis)最常見的相關診斷是肝硬化/HCC癌栓，而非膽管癌。",
-   "bg": "肝超音波可見實質腫塊、膽結石、門脈構造。**門脈內血栓(PVT)最常與肝硬化、HCC(門脈癌栓)相關**;膽管癌主要造成膽管阻塞/擴張,並非PVT最常見原因。故選項『門脈血栓最常見診斷是膽管癌』錯誤。",
+   "bg": "肝超音波可見實質腫塊、膽結石、門脈構造。**門脈內血栓(PVT)最常與肝硬化、HCC(門脈癌栓)相關**;膽管癌主要造成膽管阻塞/擴張,並非PVT最常見原因。故選項門脈血栓最常見診斷是膽管癌錯誤。",
    "op": {
     "A": "肝內實質腫塊，可能正確描述。",
     "B": "呈現膽結石，可能正確。",
@@ -8390,7 +8390,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "『下肢靜脈曲張』非肝硬化典型表徵;肝硬化常見蜘蛛痣、紅掌、男性女乳等。",
+   "q": "下肢靜脈曲張非肝硬化典型表徵;肝硬化常見蜘蛛痣、紅掌、男性女乳等。",
    "bg": "肝硬化身體表徵:蜘蛛痣(spider angioma)、紅掌(palmar erythema)、男性女乳(gynecomastia)、黃疸、腹水、腹壁靜脈(caput medusae)、肝掌、撲拍性震顫等。**下肢靜脈曲張非肝硬化特有表徵**(門脈高壓造成的是腹壁/食道側枝)。",
    "op": {
     "A": "蜘蛛痣為典型。",
@@ -8429,8 +8429,8 @@
   "cn": "第16題答Ｂ、Ｄ給分。",
   "img": [],
   "ex": {
-   "q": "ALT不適合作為肝『衰竭』指標(反映發炎而非合成功能);本題經更正B、D均給分。",
-   "bg": "肝衰竭(合成/排泄功能)指標:**白蛋白(合成)、凝血酶原時間/INR(合成)、膽紅素(排泄)、氨(清除)**。**ALT/AST反映肝細胞發炎壞死程度,非肝功能衰竭指標**。本題M檔更正『第16題答Ｂ、Ｄ給分』。",
+   "q": "ALT不適合作為肝衰竭指標(反映發炎而非合成功能);本題經更正B、D均給分。",
+   "bg": "肝衰竭(合成/排泄功能)指標:**白蛋白(合成)、凝血酶原時間/INR(合成)、膽紅素(排泄)、氨(清除)**。**ALT/AST反映肝細胞發炎壞死程度,非肝功能衰竭指標**。本題M檔更正第16題答Ｂ、Ｄ給分。",
    "op": {
     "A": "albumin反映合成功能。",
     "B": "(更正給分)ammonia反映清除。",
@@ -8467,7 +8467,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "PBC無法被UDCA『治癒』(UDCA延緩進展、延後移植，非治癒)。",
+   "q": "PBC無法被UDCA治癒(UDCA延緩進展、延後移植，非治癒)。",
    "bg": "PBC:多數AMA陽性、可見黃色瘤(xanthelasma/xanthomata)、IgM升高;**UDCA為一線可改善生化、延緩進展、延後肝移植,但不能治癒**;末期需肝移植。",
    "op": {
     "A": "多數AMA陽性，正確。",
@@ -8544,7 +8544,7 @@
   "img": [],
   "ex": {
    "q": "並非所有高病毒量B肝都需積極抗病毒;治療還要看ALT、纖維化、年齡等(免疫耐受期高量但常不治療)。",
-   "bg": "慢性B肝:病毒量與長期肝癌風險相關,但**治療指引綜合ALT、纖維化/肝硬化、年齡、家族史等,並非『高病毒量都需積極治療』**(免疫耐受期DNA極高但ALT正常通常先觀察)。肝外表現可有關節痛/關節炎;纖維化以HAI(美)或METAVIR(歐)評估;非侵入評估可用血清標誌/彈性影像。",
+   "bg": "慢性B肝:病毒量與長期肝癌風險相關,但**治療指引綜合ALT、纖維化/肝硬化、年齡、家族史等,並非高病毒量都需積極治療**(免疫耐受期DNA極高但ALT正常通常先觀察)。肝外表現可有關節痛/關節炎;纖維化以HAI(美)或METAVIR(歐)評估;非侵入評估可用血清標誌/彈性影像。",
    "op": {
     "A": "正解(錯誤)。非所有高病毒量都需積極治療。",
     "B": "可有關節痛/關節炎等肝外表現，正確。",
@@ -8623,7 +8623,7 @@
    "bg": "急性胰臟炎嚴重度:**風險因子**含年齡>60、BMI**>30**(非<30)、共病;**入院/24小時內指標**含血液濃縮(hematocrit↑,非<40%)、SIRS(心率>90、體溫<36或>38、呼吸>20、WBC異常);住院中指標含CRP升、持續器官衰竭、BUN升。本題答C(心率>90、體溫異常)。",
    "op": {
     "A": "BMI應為>30(非<30)。",
-    "B": "血液『濃縮』(hematocrit升)而非<40%。",
+    "B": "血液濃縮(hematocrit升)而非<40%。",
     "C": "正解。心率>90、體溫<36或>38為入院指標。",
     "D": "CRP/血糖升屬住院中指標,描述歸類有誤。"
    },
@@ -8736,7 +8736,7 @@
   ],
   "ex": {
    "q": "右上腹超音波呈彗尾偽影(comet-tail)＋Rokitansky-Aschoff竇→膽囊腺肌症(adenomyomatosis);選項說與RA竇無關故錯。",
-   "bg": "膽囊腺肌症(adenomyomatosis):膽囊壁增厚、**Rokitansky-Aschoff竇內膽固醇結晶**造成超音波**彗尾偽影(comet-tail/ring-down)**,此偽影有助診斷。故『與Rokitansky-Aschoff憩室無關』為錯誤。",
+   "bg": "膽囊腺肌症(adenomyomatosis):膽囊壁增厚、**Rokitansky-Aschoff竇內膽固醇結晶**造成超音波**彗尾偽影(comet-tail/ring-down)**,此偽影有助診斷。故與Rokitansky-Aschoff憩室無關為錯誤。",
    "op": {
     "A": "正解(錯誤)。膽囊腺肌症與Rokitansky-Aschoff竇相關。",
     "B": "病灶伴隨偽影，正確。",
@@ -8773,8 +8773,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "決定慢性B肝是否抗病毒的依據是HBV『DNA』量(非RNA)、ALT、纖維化程度、是否需化療免疫抑制。",
-   "bg": "慢性B肝治療決策依據:**HBV DNA(去氧核醣核酸)量、ALT高低、肝纖維化/肝硬化程度、是否因癌症化療/免疫抑制可能再活化**等。**HBV『RNA』濃度並非常規治療依據**(本題答A)。",
+   "q": "決定慢性B肝是否抗病毒的依據是HBVDNA量(非RNA)、ALT、纖維化程度、是否需化療免疫抑制。",
+   "bg": "慢性B肝治療決策依據:**HBV DNA(去氧核醣核酸)量、ALT高低、肝纖維化/肝硬化程度、是否因癌症化療/免疫抑制可能再活化**等。**HBVRNA濃度並非常規治療依據**(本題答A)。",
    "op": {
     "A": "正解。HBV RNA濃度非治療依據(應為DNA)。",
     "B": "纖維化嚴重度為依據。",
@@ -8811,7 +8811,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "McBurney點壓痛是局部壓痛,並非Rovsing徵;Rovsing徵是『壓左下腹引起右下腹痛』。",
+   "q": "McBurney點壓痛是局部壓痛,並非Rovsing徵;Rovsing徵是壓左下腹引起右下腹痛。",
    "bg": "急性闌尾炎:臍周痛轉右下腹、發燒;**Rovsing徵=按壓左下腹引起右下腹疼痛**(非McBurney點本身壓痛)。診療需排除婦科/泌尿(異位妊娠、PID);CT見闌尾壁增厚周邊發炎、未必有糞石;闌尾破裂形成局部膿瘍可先抗生素＋引流、延遲手術。",
    "op": {
     "A": "需排除子宮外孕/PID等，正確。",
@@ -8849,7 +8849,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "扁平狀(sessile)、鋸齒狀(serrated)息肉較具侵襲/癌變潛能;『突起狀(pedunculated)較具侵襲性』錯誤。",
+   "q": "扁平狀(sessile)、鋸齒狀(serrated)息肉較具侵襲/癌變潛能;突起狀(pedunculated)較具侵襲性錯誤。",
    "bg": "大腸息肉:腺瘤性為癌前、增生性較不癌變;**扁平/凹陷及鋸齒狀腺瘤(serrated)相較有柄突起狀(pedunculated)更具癌變/侵襲風險**。FAP癌變風險高於Peutz-Jeghers;Lynch與遺傳相關並增子宮內膜/卵巢癌。",
    "op": {
     "A": "腺瘤癌前、增生性較不癌變，正確。",
@@ -8887,8 +8887,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性膽囊炎『不一定』伴膽囊結石(有無結石性acalculous cholecystitis，見於重症)。",
-   "bg": "急性膽囊炎多由膽結石阻塞膽囊管引起,但**重症/長期禁食/敗血/燒傷等可發生無結石性膽囊炎(acalculous cholecystitis)**。Murphy徵常陽性;及早膽囊切除為佳;可合併總膽管結石。故『必定伴膽囊結石』錯誤。",
+   "q": "急性膽囊炎不一定伴膽囊結石(有無結石性acalculous cholecystitis，見於重症)。",
+   "bg": "急性膽囊炎多由膽結石阻塞膽囊管引起,但**重症/長期禁食/敗血/燒傷等可發生無結石性膽囊炎(acalculous cholecystitis)**。Murphy徵常陽性;及早膽囊切除為佳;可合併總膽管結石。故必定伴膽囊結石錯誤。",
    "op": {
     "A": "正解(錯誤)。不一定伴膽囊結石(有acalculous型)。",
     "B": "及早膽囊切除多為最佳，正確。",
@@ -8925,8 +8925,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "原發性硬化性膽管炎(PSC)『會』增加膽管癌風險;選項說不增加故錯。",
-   "bg": "膽管癌(cholangiocarcinoma)依部位分肝內、肝門(Klatskin)、遠端;手術切除為唯一根治;危險因子含**肝內結石、PSC(原發性硬化性膽管炎,明顯增加風險)、肝吸蟲、膽管囊腫**。故『PSC不增加膽管癌風險』錯誤。",
+   "q": "原發性硬化性膽管炎(PSC)會增加膽管癌風險;選項說不增加故錯。",
+   "bg": "膽管癌(cholangiocarcinoma)依部位分肝內、肝門(Klatskin)、遠端;手術切除為唯一根治;危險因子含**肝內結石、PSC(原發性硬化性膽管炎,明顯增加風險)、肝吸蟲、膽管囊腫**。故PSC不增加膽管癌風險錯誤。",
    "op": {
     "A": "分肝內/肝門/遠端三類，正確。",
     "B": "手術切除為唯一根治，正確。",
@@ -8964,7 +8964,7 @@
   "img": [],
   "ex": {
    "q": "潰瘍底部乾淨(clean base, Forrest III)者3天內再出血機率低。",
-   "bg": "上消化道潰瘍出血以Forrest分級預測再出血:Ia噴射、Ib滲血、IIa可見血管、IIb黏附血塊、IIc黑色斑點、**III乾淨潰瘍底(再出血風險最低)**。故『潰瘍合併乾淨底部』可告知再出血機率不大。AVM、可見血管、黏附血塊再出血風險較高。",
+   "bg": "上消化道潰瘍出血以Forrest分級預測再出血:Ia噴射、Ib滲血、IIa可見血管、IIb黏附血塊、IIc黑色斑點、**III乾淨潰瘍底(再出血風險最低)**。故潰瘍合併乾淨底部可告知再出血機率不大。AVM、可見血管、黏附血塊再出血風險較高。",
    "op": {
     "A": "黏附血塊(IIb)再出血風險中等。",
     "B": "可見血管(IIa)再出血風險高。",
@@ -9001,7 +9001,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性B肝時anti-HBc IgM與HBsAg幾乎同時或稍後即出現,並非『HBsAg出現4週後才偵測到』。",
+   "q": "急性B肝時anti-HBc IgM與HBsAg幾乎同時或稍後即出現,並非HBsAg出現4週後才偵測到。",
    "bg": "B肝血清學:HBsAg最早出現(感染後約8–12週)、比症狀/轉氨酶早2–6週;**anti-HBc IgM在急性期早期即出現(與HBsAg相近),是急性感染標記**,非延後4週;isolated anti-HBc可見於急性窗口期或隱匿性感染。",
    "op": {
     "A": "HBsAg最早出現，正確。",
@@ -9039,7 +9039,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "食道腺癌危險因子為肥胖、慢性GERD、抽菸;『H. pylori』與食道腺癌相關性最低(甚至保護)。",
+   "q": "食道腺癌危險因子為肥胖、慢性GERD、抽菸;H. pylori與食道腺癌相關性最低(甚至保護)。",
    "bg": "食道腺癌(下段、Barrett相關)危險因子:慢性胃食道逆流、肥胖、抽菸、Barrett食道;**H. pylori與食道腺癌相關性最低(可能因降低胃酸而呈負相關/保護)**。",
    "op": {
     "A": "肥胖為危險因子。",
@@ -9077,7 +9077,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "晚期/轉移胰臟癌的組合化療(FOLFIRINOX等)『優於』gemcitabine單一治療;選項說未優於故錯。",
+   "q": "晚期/轉移胰臟癌的組合化療(FOLFIRINOX等)優於gemcitabine單一治療;選項說未優於故錯。",
    "bg": "胰臟癌藥物治療:局部切除後輔助化療約半年;術後gemcitabine＋capecitabine優於單用gemcitabine;**晚期/轉移者組合化療(FOLFIRINOX、gemcitabine＋nab-paclitaxel)優於單用gemcitabine**(故選項C說未優於為錯);gemcitabine失敗後liposomal irinotecan＋5-FU/LV已獲核准。",
    "op": {
     "A": "術後輔助化療半年，正確。",
@@ -9115,8 +9115,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "肝硬化原發性細菌性腹膜炎(SBP)最常見致病原是革蘭氏『陰性』腸內菌(E. coli)，非革蘭氏陽性菌。",
-   "bg": "原發性(自發性)細菌性腹膜炎(SBP):**最常見E. coli等腸內革蘭氏陰性菌**(細菌移位)，經驗治療(三代cephalosporin)原則不需特別涵蓋厭氧菌;次發性腹膜炎(腸穿孔)為腸內G(−)＋厭氧菌,需抗生素＋手術。故『SBP最常見革蘭氏陽性菌』錯誤。",
+   "q": "肝硬化原發性細菌性腹膜炎(SBP)最常見致病原是革蘭氏陰性腸內菌(E. coli)，非革蘭氏陽性菌。",
+   "bg": "原發性(自發性)細菌性腹膜炎(SBP):**最常見E. coli等腸內革蘭氏陰性菌**(細菌移位)，經驗治療(三代cephalosporin)原則不需特別涵蓋厭氧菌;次發性腹膜炎(腸穿孔)為腸內G(−)＋厭氧菌,需抗生素＋手術。故SBP最常見革蘭氏陽性菌錯誤。",
    "op": {
     "A": "SBP經驗治療不需特別涵蓋厭氧菌，正確。",
     "B": "正解(錯誤)。SBP最常見革蘭氏陰性菌(E. coli)。",
@@ -9233,8 +9233,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "轉移痛中『原發處疼痛不明顯時，按壓轉移痛區可誘發疼痛』之敘述錯誤(轉移痛非以按壓誘發為原則)。",
-   "bg": "轉移痛(referred pain)依胚胎節段神經對應:胸腔/心臟病可有上腹轉移痛、膽道發炎轉移至右肩胛/鎖骨上、橫膈刺激轉移至肩(Kehr)。**轉移痛是內臟病灶投射至體表特定區域的『感覺』,並非靠按壓該區誘發病灶疼痛**,故選項D錯誤。",
+   "q": "轉移痛中原發處疼痛不明顯時，按壓轉移痛區可誘發疼痛之敘述錯誤(轉移痛非以按壓誘發為原則)。",
+   "bg": "轉移痛(referred pain)依胚胎節段神經對應:胸腔/心臟病可有上腹轉移痛、膽道發炎轉移至右肩胛/鎖骨上、橫膈刺激轉移至肩(Kehr)。**轉移痛是內臟病灶投射至體表特定區域的感覺,並非靠按壓該區誘發病灶疼痛**,故選項D錯誤。",
    "op": {
     "A": "胸腔/心臟可有上腹轉移痛，正確。",
     "B": "胸椎神經病變可下腹轉移痛，正確(概念性)。",
@@ -9271,7 +9271,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "C肝目前治療『主為全口服直接抗病毒藥(DAA)』，非長效干擾素＋ribavirin(已過時)。",
+   "q": "C肝目前治療主為全口服直接抗病毒藥(DAA)，非長效干擾素＋ribavirin(已過時)。",
    "bg": "C肝(genotype 1、肝酵素升、無肝硬化)應接受抗病毒治療以減少肝硬化/肝癌;且即使無肝硬化仍應定期肝癌篩檢(超音波±AFP)。**現今C肝主流為全口服DAA(治癒率>95%)，而非peginterferon＋ribavirin**(故選項C過時錯誤)。",
    "op": {
     "A": "應定期肝癌篩檢(超音波＋AFP)，正確。",
@@ -9347,7 +9347,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "糞便calprotectin是『發炎性腸病(IBD)』的標記，非IBS診斷生物標記(IBS無此發炎標記)。",
+   "q": "糞便calprotectin是發炎性腸病(IBD)的標記，非IBS診斷生物標記(IBS無此發炎標記)。",
    "bg": "IBS:年輕、女多於男、晨間下腹絞痛伴排便習慣改變、排便後緩解;機轉為腦-腸軸/內臟敏感。**糞便calprotectin/乳鐵蛋白升高代表腸道發炎(IBD),用於與IBS鑑別;IBS的calprotectin不升,故非IBS診斷標記**。可伴脹氣/消化不良等。",
    "op": {
     "A": "各年齡可發、女多於男，正確。",
@@ -9423,7 +9423,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "印戒細胞瀰漫型胃腺癌轉移至『卵巢』稱Krukenberg瘤(非子宮)。",
+   "q": "印戒細胞瀰漫型胃腺癌轉移至卵巢稱Krukenberg瘤(非子宮)。",
    "bg": "胃腺癌分腸型與瀰漫型;瀰漫型好發年輕、黏附力喪失、浸潤增厚成皮革胃(linitis plastica);腸型常潰瘍、與Hp相關;**含印戒細胞(signet ring)瀰漫型胃腺癌轉移至雙側卵巢稱Krukenberg瘤(轉移至卵巢,非子宮)**。",
    "op": {
     "A": "分腸型/瀰漫型，正確。",
@@ -9461,7 +9461,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "切除十二指腸段時，維生素B12吸收較不受影響(B12在『迴腸末端』吸收)。",
+   "q": "切除十二指腸段時，維生素B12吸收較不受影響(B12在迴腸末端吸收)。",
    "bg": "營養吸收部位:**鈣、鐵、葉酸主要在近端小腸(十二指腸/空腸)**;**維生素B12在迴腸末端吸收**。故切除十二指腸對鈣/鐵/葉酸吸收影響較大,**B12(迴腸吸收)較不受影響**。",
    "op": {
     "A": "鈣在近端小腸吸收，會受影響。",
@@ -9499,7 +9499,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "胰腺癌常見症狀為體重減輕、黃疸、背痛;『低血糖』不是(分泌胰島素的胰島素瘤才低血糖)。",
+   "q": "胰腺癌常見症狀為體重減輕、黃疸、背痛;低血糖不是(分泌胰島素的胰島素瘤才低血糖)。",
    "bg": "胰臟管腺癌常見症狀:體重減輕、無痛性阻塞性黃疸(胰頭癌)、上腹/背痛、新發糖尿病(高血糖,非低血糖)、食慾差。**低血糖見於功能性胰島素瘤(insulinoma),非管腺癌**。",
    "op": {
     "A": "體重減輕常見。",
@@ -9651,7 +9651,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "抗EGFR的cetuximab合併放療降低直腸癌局部復發『最不恰當』(直腸癌標準為TME＋放療＋5-FU化放療)。",
+   "q": "抗EGFR的cetuximab合併放療降低直腸癌局部復發最不恰當(直腸癌標準為TME＋放療＋5-FU化放療)。",
    "bg": "局部進展期(II/III)直腸癌降低局部復發:**全直腸繫膜切除(TME)、術前/術後骨盆放療、5-FU為基礎的同步化放療(CCRT)**。**cetuximab(抗EGFR)合併放療並非直腸癌標準且未證實降復發,最不恰當**。",
    "op": {
     "A": "TME術式為標準。",
@@ -9841,7 +9841,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "抽菸會『增加』克隆氏症(CD)發生(對潰瘍性大腸炎反為保護)。",
+   "q": "抽菸會增加克隆氏症(CD)發生(對潰瘍性大腸炎反為保護)。",
    "bg": "IBD流行病學:**抽菸增加CD發生與惡化、術後復發;對UC具保護(戒菸後UC可惡化/發病)**;口服避孕藥與CD略相關;闌尾切除對UC保護(非CD);亞洲發生率上升但仍多低於歐美。",
    "op": {
     "A": "正解。抽菸增加CD發生。",
@@ -9879,7 +9879,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "Mirizzi症候群為『膽囊管(cystic duct)或膽囊頸結石』外壓總肝/總膽管造成阻塞性黃疸。",
+   "q": "Mirizzi症候群為膽囊管(cystic duct)或膽囊頸結石外壓總肝/總膽管造成阻塞性黃疸。",
    "bg": "**Mirizzi症候群**:嵌頓於膽囊頸/膽囊管的結石外在壓迫總肝管/總膽管→阻塞性黃疸、可併膽囊膽管瘻。故造成膽汁排泄阻塞的原發原因為膽囊管(cystic duct)結石。",
    "op": {
     "A": "總膽管結石為直接腔內阻塞，非Mirizzi機轉。",
@@ -9955,7 +9955,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "前列腺素(prostaglandin)是胃黏膜的『防禦因子』，不是攻擊因子。",
+   "q": "前列腺素(prostaglandin)是胃黏膜的防禦因子，不是攻擊因子。",
    "bg": "胃黏膜攻擊因子:胃酸、胃蛋白酶、H. pylori、膽鹽逆流、NSAID、酒精;**防禦因子:黏液-碳酸氫鹽層、黏膜血流、上皮再生、前列腺素(促黏液/碳酸氫鹽分泌與血流)**。故前列腺素為防禦(保護)因子,非攻擊因子。",
    "op": {
     "A": "正解。前列腺素為防禦因子，非攻擊因子。",
@@ -9993,7 +9993,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "與肥胖、胰島素阻抗密切相關的是『非酒精性』脂肪肝(NAFLD)，非酒精性脂肪肝;故B選項張冠李戴而錯。",
+   "q": "與肥胖、胰島素阻抗密切相關的是非酒精性脂肪肝(NAFLD)，非酒精性脂肪肝;故B選項張冠李戴而錯。",
    "bg": "本例每週飲酒、AST/ALT升、anti-HCV陽性、中度脂肪肝→可能酒精性脂肪肝且合併C肝。**酒精性脂肪肝由酒精引起;與肥胖、胰島素阻抗密切相關的是NAFLD**(故選項B把成因說成肥胖/胰島素阻抗為錯)。戒酒最重要、類固醇此階段無益;合併HCV須評估治療。",
    "op": {
     "A": "可能已酒精性脂肪肝，合理。",
@@ -10031,7 +10031,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "糞便潛血(FOBT)陽性者應進一步接受『大腸鏡』確診。",
+   "q": "糞便潛血(FOBT)陽性者應進一步接受大腸鏡確診。",
    "bg": "大腸癌篩檢:FOBT/FIT陽性**不代表已罹癌,須以大腸鏡確診**;肛門指診僅及遠端直腸、非好篩檢;下消化道鋇劑攝影敏感度不如大腸鏡。故陽性者應接受大腸鏡。",
    "op": {
     "A": "FOBT陽性不代表已罹癌。",
@@ -10069,7 +10069,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "大腸直腸癌危險因子不含『腸球菌(enterococcus)菌血症』;與大腸癌相關的是Streptococcus bovis/gallolyticus菌血症。",
+   "q": "大腸直腸癌危險因子不含腸球菌(enterococcus)菌血症;與大腸癌相關的是Streptococcus bovis/gallolyticus菌血症。",
    "bg": "大腸癌危險因子:高動物脂肪飲食、IBD、Lynch症候群、家族史、肥胖、糖尿病等;**Streptococcus gallolyticus(bovis)菌血症/心內膜炎與大腸腫瘤相關**;**腸球菌(Enterococcus)菌血症與大腸癌無此關聯**,故最不恰當。",
    "op": {
     "A": "動物性脂肪為危險因子。",
@@ -10107,8 +10107,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "上腸胃道鋇劑檢查中，主動脈弓在食道『左側』形成壓迹(非右側)。",
-   "bg": "食道鋇劑攝影正常壓迹:**主動脈弓在食道左側、左主支氣管在左側形成壓迹**;胃食道交界可於食道穿橫膈處辨認;吞嚥引發蠕動波推進食糜。故『主動脈弓在食道右側壓迹』錯誤。",
+   "q": "上腸胃道鋇劑檢查中，主動脈弓在食道左側形成壓迹(非右側)。",
+   "bg": "食道鋇劑攝影正常壓迹:**主動脈弓在食道左側、左主支氣管在左側形成壓迹**;胃食道交界可於食道穿橫膈處辨認;吞嚥引發蠕動波推進食糜。故主動脈弓在食道右側壓迹錯誤。",
    "op": {
     "A": "正解(錯誤)。主動脈弓在食道左側壓迹，非右側。",
     "B": "左主支氣管在左側壓迹，正確。",
@@ -10146,7 +10146,7 @@
   "img": [],
   "ex": {
    "q": "母親兄長皆B肝帶原→患者B肝最可能為母嬰垂直感染。",
-   "bg": "台灣慢性B肝主要經**母嬰垂直感染**;本例媽媽、哥哥皆帶原→最可能垂直傳染。HBeAg陰性、anti-HBe陽性、ALT正常者多屬不活動帶原但仍有病毒、仍需每半年腹部超音波±AFP篩檢肝癌(有家族肝癌史風險更高);非『免疫耐受期』(免疫耐受期HBeAg陽性)。",
+   "bg": "台灣慢性B肝主要經**母嬰垂直感染**;本例媽媽、哥哥皆帶原→最可能垂直傳染。HBeAg陰性、anti-HBe陽性、ALT正常者多屬不活動帶原但仍有病毒、仍需每半年腹部超音波±AFP篩檢肝癌(有家族肝癌史風險更高);非免疫耐受期(免疫耐受期HBeAg陽性)。",
    "op": {
     "A": "HBeAg陰性不代表體內已無病毒。",
     "B": "HBeAg陰性者非免疫耐受期(免疫耐受期HBeAg陽性)。",
@@ -10183,8 +10183,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "突出需『手動推回』者屬第三級痔瘡;第四級為無法推回(脫垂無法復位)。選項把第四級定義說成需手動推回故錯。",
-   "bg": "內痔分級:I級僅出血不脫出、II級脫出可自行回縮、**III級脫出需手動推回、IV級脫出無法推回(嵌頓)**。大便失禁可見於骨盆底損傷/失智/中風等;治療含高纖、bulking、生物回饋;肛門直腸膿瘍好發免疫低下者,治療為切開引流。故選項C(把『需手動推回』歸為第四級)錯誤。",
+   "q": "突出需手動推回者屬第三級痔瘡;第四級為無法推回(脫垂無法復位)。選項把第四級定義說成需手動推回故錯。",
+   "bg": "內痔分級:I級僅出血不脫出、II級脫出可自行回縮、**III級脫出需手動推回、IV級脫出無法推回(嵌頓)**。大便失禁可見於骨盆底損傷/失智/中風等;治療含高纖、bulking、生物回饋;肛門直腸膿瘍好發免疫低下者,治療為切開引流。故選項C(把需手動推回歸為第四級)錯誤。",
    "op": {
     "A": "大便失禁相關因素，正確。",
     "B": "失禁治療(高纖/bulking/生物回饋)，正確。",
@@ -10221,8 +10221,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "白血球『過低』並非自發性細菌性腹膜炎(SBP)的常見重要致病因子(SBP關鍵是腹水PMN升高與肝硬化菌移位)。",
-   "bg": "急性腹膜炎:腸穿孔→腸內菌入腹腔為續發性腹膜炎;**SBP診斷靠腹水PMN≥250/mm3、發生於肝硬化腹水(細菌移位、補體/調理素低)**;身體檢查注意McBurney/Murphy/木板樣僵直/反彈痛;X光看游離氣體(穿孔)。**『血中白血球過低是SBP重要致病因子』敘述錯誤**。",
+   "q": "白血球過低並非自發性細菌性腹膜炎(SBP)的常見重要致病因子(SBP關鍵是腹水PMN升高與肝硬化菌移位)。",
+   "bg": "急性腹膜炎:腸穿孔→腸內菌入腹腔為續發性腹膜炎;**SBP診斷靠腹水PMN≥250/mm3、發生於肝硬化腹水(細菌移位、補體/調理素低)**;身體檢查注意McBurney/Murphy/木板樣僵直/反彈痛;X光看游離氣體(穿孔)。**血中白血球過低是SBP重要致病因子敘述錯誤**。",
    "op": {
     "A": "腸穿孔致續發性腹膜炎，正確。",
     "B": "正解(錯誤)。白血球過低非SBP重要致病因子。",
@@ -10297,8 +10297,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性食道靜脈瘤出血『急性期』應用血管活性藥(terlipressin/octreotide)＋內視鏡;非選擇性β-blocker用於預防而非急性止血。",
-   "bg": "食道靜脈瘤出血:急性期**穩定循環＋血管活性藥(terlipressin/octreotide/somatostatin)＋內視鏡結紮＋預防性抗生素**;**非選擇性β-blocker用於初級/次級『預防』,不用於急性止血**(本題答C錯誤)。需注意胃靜脈瘤。",
+   "q": "急性食道靜脈瘤出血急性期應用血管活性藥(terlipressin/octreotide)＋內視鏡;非選擇性β-blocker用於預防而非急性止血。",
+   "bg": "食道靜脈瘤出血:急性期**穩定循環＋血管活性藥(terlipressin/octreotide/somatostatin)＋內視鏡結紮＋預防性抗生素**;**非選擇性β-blocker用於初級/次級預防,不用於急性止血**(本題答C錯誤)。需注意胃靜脈瘤。",
    "op": {
     "A": "內視鏡結紮可止血，正確。",
     "B": "terlipressin/octreotide有助止血，正確。",
@@ -10335,7 +10335,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "胰腺癌術後輔助化療『有』確定療效、是標準治療;選項說無確定療效故錯。",
+   "q": "胰腺癌術後輔助化療有確定療效、是標準治療;選項說無確定療效故錯。",
    "bg": "胰腺癌:germline BRCA2突變者風險高;慢性胰臟炎為危險因子;侵犯上腸繫膜動脈→不可切除;**手術切除後輔助化療(mFOLFIRINOX或gemcitabine-based)可改善存活,為標準治療**,故選項D錯誤。",
    "op": {
     "A": "germline BRCA2增風險，正確。",
@@ -10487,7 +10487,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "志賀氏菌(Shigella)感染劑量極低、『可人對人直接傳染』;選項說只藉污染水食物、不會人傳人故錯。",
+   "q": "志賀氏菌(Shigella)感染劑量極低、可人對人直接傳染;選項說只藉污染水食物、不會人傳人故錯。",
    "bg": "食物中毒/旅行者腹瀉:Staphylococcus aureus、Bacillus cereus潛伏期最短(嘔吐型);**Shigella感染劑量極低(10–100個),可經人對人(糞口、接觸)直接傳播**(故選項B錯);Shigella、Entamoeba、Giardia感染劑量遠低於霍亂弧菌;霍亂為腸毒素致大量水瀉、糞便少白血球。",
    "op": {
     "A": "S. aureus/B. cereus潛伏期最短，正確。",
@@ -10525,7 +10525,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "鋇劑吞嚥食道攝影『不能』偵測急性胰臟炎(那需CT/超音波)。",
+   "q": "鋇劑吞嚥食道攝影不能偵測急性胰臟炎(那需CT/超音波)。",
    "bg": "影像選擇:**急性胰臟炎評估用顯影劑CT或超音波(非鋇劑吞嚥食道攝影)**;鋇劑吞嚥用於食道阻塞/吞嚥困難;胰臟假性囊腫追蹤用CT/US。故選項A(鋇劑吞嚥偵測急性胰臟炎)最不適宜。",
    "op": {
     "A": "正解(最不適宜)。鋇劑吞嚥不能偵測急性胰臟炎。",
@@ -10641,7 +10641,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "轉氨酶大幅升高(>1000)見於自體免疫、缺血、藥物性肝炎;『脂肪性肝炎』較不會出現如此高的肝指數。",
+   "q": "轉氨酶大幅升高(>1000)見於自體免疫、缺血、藥物性肝炎;脂肪性肝炎較不會出現如此高的肝指數。",
    "bg": "AST/ALT>1000常見於:急性病毒性肝炎、**缺血性(休克)肝炎、藥物/毒物(acetaminophen)、自體免疫肝炎急性發作、總膽管結石一過性**。**脂肪性肝炎(NASH)的肝指數多為輕中度升高,很少>1000**(本題答C)。AST/ALT比值與型態有助鑑別(酒精性AST/ALT>2;缺血/中毒AST/ALT極高)。",
    "op": {
     "A": "自體免疫肝炎可>1000。",
@@ -10717,7 +10717,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "H2受體拮抗劑作用於『壁細胞(parietal cell)』上的H2受體(非chief cell)以抑制胃酸。",
+   "q": "H2受體拮抗劑作用於壁細胞(parietal cell)上的H2受體(非chief cell)以抑制胃酸。",
    "bg": "胃藥機轉:制酸劑中和胃酸;**H2受體拮抗劑阻斷壁細胞(parietal cell)上的histamine H2受體→減少胃酸**(選項說chief cell錯誤,chief cell分泌pepsinogen);PPI以共價不可逆結合壁細胞H+/K+-ATPase;PPI停藥可反彈性胃酸過度分泌。",
    "op": {
     "A": "制酸劑中和胃酸，正確。",
@@ -10755,7 +10755,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性上消化道出血初期血色素可正常(尚未血液稀釋)，故『血色素正常即可判斷無嚴重出血』錯誤。",
+   "q": "急性上消化道出血初期血色素可正常(尚未血液稀釋)，故血色素正常即可判斷無嚴重出血錯誤。",
    "bg": "急性上消化道出血:應問病史找出血源、評估心跳血壓(休克/直立性變化反映嚴重出血)。**急性失血初期血色素可正常(血漿與紅血球等比例流失,需數小時體液重分布後才下降),故血色素正常不能排除嚴重出血**(本題答C錯誤)。內視鏡止血對活動性出血/可見血管可降低再出血、住院與死亡。",
    "op": {
     "A": "詳問病史找出血源，正確。",
@@ -10794,7 +10794,7 @@
   "img": [],
   "ex": {
    "q": "鐵與鈣的吸收主要在上端小腸(十二指腸/近端空腸)。",
-   "bg": "吸收部位:**鐵、鈣主要在十二指腸/近端空腸(上端小腸)**;膽酸主要在迴腸末端(非大腸);維生素A、D、E、K為**脂溶性**(非水溶性);分泌型腹瀉禁食後『不』減輕(滲透型才減輕)。本題答A正確。",
+   "bg": "吸收部位:**鐵、鈣主要在十二指腸/近端空腸(上端小腸)**;膽酸主要在迴腸末端(非大腸);維生素A、D、E、K為**脂溶性**(非水溶性);分泌型腹瀉禁食後不減輕(滲透型才減輕)。本題答A正確。",
    "op": {
     "A": "正解。鐵與鈣主要在上端小腸吸收。",
     "B": "膽酸在迴腸末端(非大腸)。",
@@ -10832,7 +10832,7 @@
   "img": [],
   "ex": {
    "q": "腸扭轉(volvulus)並非大腸阻塞最常見原因(大腸阻塞最常見為腫瘤)。",
-   "bg": "急性腸阻塞:**小腸阻塞較大腸阻塞常見**;小腸阻塞最常見為術後沾黏;**大腸阻塞最常見原因為腫瘤(其次憩室炎、扭轉)**,故『腸扭轉是大腸阻塞最常見原因』錯誤;乙狀結腸扭轉可內視鏡置管減壓。",
+   "bg": "急性腸阻塞:**小腸阻塞較大腸阻塞常見**;小腸阻塞最常見為術後沾黏;**大腸阻塞最常見原因為腫瘤(其次憩室炎、扭轉)**,故腸扭轉是大腸阻塞最常見原因錯誤;乙狀結腸扭轉可內視鏡置管減壓。",
    "op": {
     "A": "小腸阻塞較大腸阻塞常見，正確。",
     "B": "術後沾黏為小腸阻塞常見原因，正確。",
@@ -11097,8 +11097,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "自體免疫肝炎(AIH)中調節性T細胞(Treg)活性『下降』(失去抑制致自體攻擊)，非上升。",
-   "bg": "AIH病理機轉:對肝細胞的自體免疫攻擊(界面性肝炎、漿細胞浸潤),常合併纖維化甚至肝硬化;**調節性T細胞(Treg)數目/功能下降→免疫失調**;與CTLA-4、TNFA等基因多型相關;血清ANA、anti-LKM等自體抗體陽性。故『Treg活性上升』錯誤。",
+   "q": "自體免疫肝炎(AIH)中調節性T細胞(Treg)活性下降(失去抑制致自體攻擊)，非上升。",
+   "bg": "AIH病理機轉:對肝細胞的自體免疫攻擊(界面性肝炎、漿細胞浸潤),常合併纖維化甚至肝硬化;**調節性T細胞(Treg)數目/功能下降→免疫失調**;與CTLA-4、TNFA等基因多型相關;血清ANA、anti-LKM等自體抗體陽性。故Treg活性上升錯誤。",
    "op": {
     "A": "肝細胞壞死發炎合併纖維化，正確。",
     "B": "正解(錯誤)。AIH中Treg活性下降，非上升。",
@@ -11138,7 +11138,7 @@
   ],
   "ex": {
    "q": "糖尿病右上腹痛發燒、CT肝膿瘍：在台灣最常見致病菌為Klebsiella pneumoniae(非E. coli)。",
-   "bg": "糖尿病患肝膿瘍在台灣以**Klebsiella pneumoniae**最常見(可併眼內炎、腦膜炎)。處置:血液培養、肝病灶抽吸/引流＋抗生素;CT見環狀強化病灶(疑膿瘍/腫瘤)。故選項D『E. coli最常見』錯誤。",
+   "bg": "糖尿病患肝膿瘍在台灣以**Klebsiella pneumoniae**最常見(可併眼內炎、腦膜炎)。處置:血液培養、肝病灶抽吸/引流＋抗生素;CT見環狀強化病灶(疑膿瘍/腫瘤)。故選項DE. coli最常見錯誤。",
    "op": {
     "A": "應做血液培養，正確。",
     "B": "安排肝病灶抽吸/引流，正確。",
@@ -11175,7 +11175,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "腸躁症(IBS)糞便潛血、糞便白血球應為陰性;『常見糞便潛血、白血球過多』錯誤(那是發炎性病變)。",
+   "q": "腸躁症(IBS)糞便潛血、糞便白血球應為陰性;常見糞便潛血、白血球過多錯誤(那是發炎性病變)。",
    "bg": "IBS為功能性疾病:**糞便潛血、糞便白血球通常陰性**;若有血便/糞便白血球/calprotectin升高應懷疑器質性/發炎性病變(IBD、感染)。IBS依症狀分便秘型、腹瀉型、混合型;治療含同理支持、低FODMAP飲食、bulking agent、止瀉/瀉劑、抗痙攣、血清素藥、抗憂鬱劑、益生菌等。",
    "op": {
     "A": "正解(錯誤)。IBS糞便潛血/白血球應陰性。",
@@ -11213,7 +11213,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "小腸阻塞腸音的演變是『先高頻亢進、後變慢/消失』；選項D的順序(先慢後高頻)寫反故錯。",
+   "q": "小腸阻塞腸音的演變是先高頻亢進、後變慢/消失；選項D的順序(先慢後高頻)寫反故錯。",
    "bg": "機械性腸阻塞:常見原因術後沾黏、腫瘤、疝氣、腸套疊、扭轉、IBD;功能性(偽阻塞)因蠕動異常(脊損、電解質、鴉片/抗膽鹼、缺血);阻塞近端腸管擴張、壓力升、腸壁水腫缺氧至壞死。**腸音演變:早期高頻亢進(對抗阻塞)→晚期變慢/消失(腸麻痺)**;選項D把順序寫反(先慢後高頻)故錯。",
    "op": {
     "A": "機械性阻塞原因列舉，正確。",
@@ -11251,7 +11251,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "在clarithromycin抗藥率<15%地區，『7日』clarithromycin三合一療程已不推薦(療程過短,應≥14日或四合一)。",
+   "q": "在clarithromycin抗藥率<15%地區，7日clarithromycin三合一療程已不推薦(療程過短,應≥14日或四合一)。",
    "bg": "H. pylori除菌:在clarithromycin抗藥率低(<15%)地區仍可用clarithromycin三合一,但**療程應為14日(7日療程除菌率不足,不再推薦)**;或用concomitant、bismuth四合一。故選項A(7日clarithromycin三合一)不推薦。",
    "op": {
     "A": "正解(不推薦)。7日clarithromycin三合一療程不足。",
@@ -11289,7 +11289,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "膽石性急性胰臟炎最重要的治療是『積極靜脈輸液』。",
+   "q": "膽石性急性胰臟炎最重要的治療是積極靜脈輸液。",
    "bg": "急性胰臟炎(含膽石性)核心治療為**早期積極靜脈輸液**(維持灌注、減少壞死)、止痛、禁食後早期進食。抗生素僅用於感染性壞死/膽管炎;ERCP取石用於合併膽管炎或持續膽道阻塞;鼻胃管引流非常規(僅嚴重嘔吐/腸阻塞)。本題答C。",
    "op": {
     "A": "抗生素非常規(僅感染時)。",
@@ -11369,7 +11369,7 @@
   "img": [],
   "ex": {
    "q": "新診斷肝硬化病人約50%已有胃食道靜脈曲張(本題經更正一律給分)。",
-   "bg": "肝硬化靜脈曲張:**新診斷肝硬化約30–50%已有靜脈曲張(代償期約30–40%、失代償約60%)**;靜脈曲張可在腹水前出現;藥物(非選擇性β-blocker)＋內視鏡結紮可有效預防出血;發生靜脈曲張出血本身即屬失代償。本題M檔更正『第22題一律給分』。",
+   "bg": "肝硬化靜脈曲張:**新診斷肝硬化約30–50%已有靜脈曲張(代償期約30–40%、失代償約60%)**;靜脈曲張可在腹水前出現;藥物(非選擇性β-blocker)＋內視鏡結紮可有效預防出血;發生靜脈曲張出血本身即屬失代償。本題M檔更正第22題一律給分。",
    "op": {
     "A": "靜脈曲張不一定在腹水後才出現。",
     "B": "(更正給分)新診斷肝硬化約50%已有靜脈曲張。",
@@ -11522,8 +11522,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "老人、心律不整、近期心導管後突發劇烈腹痛→急性腸繫膜缺血;『儘速給血管收縮劑升壓』錯誤(會加重腸缺血)。",
-   "bg": "急性腸繫膜缺血(房顫栓塞、近期導管操作)典型『腹痛與理學不成比例』、初期腹軟無腹膜炎徵象;檢查含CBC、生化(含胰酵素)、凝血、**乳酸**、ABG、心肌酵素、ECG;**CT血管攝影為診斷利器**,治療含抗凝、血管擴張/取栓、針對G(−)與厭氧菌抗生素,有腹膜炎時剖腹。**血管收縮劑會進一步減少腸灌注,故為錯誤處置**(本題答B)。",
+   "q": "老人、心律不整、近期心導管後突發劇烈腹痛→急性腸繫膜缺血;儘速給血管收縮劑升壓錯誤(會加重腸缺血)。",
+   "bg": "急性腸繫膜缺血(房顫栓塞、近期導管操作)典型腹痛與理學不成比例、初期腹軟無腹膜炎徵象;檢查含CBC、生化(含胰酵素)、凝血、**乳酸**、ABG、心肌酵素、ECG;**CT血管攝影為診斷利器**,治療含抗凝、血管擴張/取栓、針對G(−)與厭氧菌抗生素,有腹膜炎時剖腹。**血管收縮劑會進一步減少腸灌注,故為錯誤處置**(本題答B)。",
    "op": {
     "A": "年齡大、心律不整、導管後→考慮缺血性腸炎，正確。",
     "B": "正解(錯誤)。不應給血管收縮劑(加重腸缺血)。",
@@ -11560,7 +11560,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "食道遲緩不能(achalasia)是『下食道括約肌(LES)』吞嚥時無法放鬆，並非近端括約肌。",
+   "q": "食道遲緩不能(achalasia)是下食道括約肌(LES)吞嚥時無法放鬆，並非近端括約肌。",
    "bg": "achalasia:肌間神經叢抑制性神經元退化→**下食道括約肌(LES)吞嚥時無法放鬆＋食道體部蠕動消失**;高解析度測壓(manometry)為診斷工具。裂孔疝氣以滑動型(I型)最多;Zenker憩室發生於Killian三角。故選項C(說近端食道括約肌)錯誤。",
    "op": {
     "A": "裂孔疝氣以第一型滑動型最多，正確。",
@@ -11599,7 +11599,7 @@
   "img": [],
   "ex": {
    "q": "胃潰瘍合併H. pylori者，得到胃腺癌與胃淋巴瘤(MALT)的機會增加。",
-   "bg": "H. pylori為第一類致癌物,長期感染增加**胃腺癌與胃MALT淋巴瘤**風險;診斷方式多元(尿素呼氣、糞抗原、切片、培養、快速尿素酶),**非唯有切片培養才能確診**;**尿素呼氣原理為Hp的urease將標定尿素水解、使呼氣中標定碳『增加』**(選項D說減少故錯)。本題答C正確。",
+   "bg": "H. pylori為第一類致癌物,長期感染增加**胃腺癌與胃MALT淋巴瘤**風險;診斷方式多元(尿素呼氣、糞抗原、切片、培養、快速尿素酶),**非唯有切片培養才能確診**;**尿素呼氣原理為Hp的urease將標定尿素水解、使呼氣中標定碳增加**(選項D說減少故錯)。本題答C正確。",
    "op": {
     "A": "確診方式多元，非唯切片培養。",
     "B": "培養不出不代表無感染(可其他法)。",
@@ -11636,8 +11636,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "抗腫瘤壞死因子(anti-TNF)對中重度克隆氏症『效果良好』，非效果不佳。",
-   "bg": "克隆氏症:主侵小腸(末端迴腸最好發)、可侵大腸;全層發炎可致進食後腹痛、脂肪痢、瘻管狹窄;**anti-TNF(infliximab、adalimumab)對中重度CD誘導與維持緩解、促進瘻管癒合效果良好**,故選項D『效果不佳』錯誤。",
+   "q": "抗腫瘤壞死因子(anti-TNF)對中重度克隆氏症效果良好，非效果不佳。",
+   "bg": "克隆氏症:主侵小腸(末端迴腸最好發)、可侵大腸;全層發炎可致進食後腹痛、脂肪痢、瘻管狹窄;**anti-TNF(infliximab、adalimumab)對中重度CD誘導與維持緩解、促進瘻管癒合效果良好**,故選項D效果不佳錯誤。",
    "op": {
     "A": "主侵小腸有時侵大腸，正確。",
     "B": "末端迴腸最好發，正確。",
@@ -11674,8 +11674,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "BISAP評分不含『腹水』;其五項為BUN>25、意識障礙、SIRS、年齡>60、胸部肋膜積液。",
-   "bg": "**BISAP(急性胰臟炎床邊嚴重度)五項:B=BUN>25 mg/dL、I=意識障礙(impaired mental status)、S=SIRS、A=Age>60、P=胸部X光肋膜積液(pleural effusion)**。**『腹水』不在BISAP內**(本題答C)。",
+   "q": "BISAP評分不含腹水;其五項為BUN>25、意識障礙、SIRS、年齡>60、胸部肋膜積液。",
+   "bg": "**BISAP(急性胰臟炎床邊嚴重度)五項:B=BUN>25 mg/dL、I=意識障礙(impaired mental status)、S=SIRS、A=Age>60、P=胸部X光肋膜積液(pleural effusion)**。**腹水不在BISAP內**(本題答C)。",
    "op": {
     "A": "BUN>25為BISAP項目。",
     "B": "意識障礙為BISAP項目。",
@@ -11753,8 +11753,8 @@
   "cn": "第23題一律給分，第42題答Ａ或Ｄ或AD者均給分",
   "img": [],
   "ex": {
-   "q": "NAFLD主要危險因子為肥胖、糖尿病、高血脂;高尿酸血症非『主要』危險因子(本題經更正一律給分)。",
-   "bg": "非酒精性脂肪肝(NAFLD/MASLD)主要危險因子為**肥胖、第二型糖尿病/胰島素阻抗、高血脂、代謝症候群**;高尿酸血症與NAFLD有相關性但非主要(傳統)危險因子。本題M檔更正『第23題一律給分』。",
+   "q": "NAFLD主要危險因子為肥胖、糖尿病、高血脂;高尿酸血症非主要危險因子(本題經更正一律給分)。",
+   "bg": "非酒精性脂肪肝(NAFLD/MASLD)主要危險因子為**肥胖、第二型糖尿病/胰島素阻抗、高血脂、代謝症候群**;高尿酸血症與NAFLD有相關性但非主要(傳統)危險因子。本題M檔更正第23題一律給分。",
    "op": {
     "A": "肥胖為主要危險因子。",
     "B": "(更正給分)高尿酸非主要危險因子。",
@@ -11792,7 +11792,7 @@
   "img": [],
   "ex": {
    "q": "chromogranin A的免疫組織染色有助於神經內分泌瘤(NET)的診斷。",
-   "bg": "神經內分泌瘤(NET)病理:**chromogranin A與synaptophysin為神經內分泌標記,陽性『支持』NET診斷**(synaptophysin陽性不能排除);腫瘤染serotonin/substance P陽性不等於必有臨床症候群(需荷爾蒙活性與肝轉移);**分級(Ki-67):G1/G2為well/moderately分化,G3為poorly分化(non-NET型neuroendocrine carcinoma)**,故選項D分級對應有誤。本題答A正確。",
+   "bg": "神經內分泌瘤(NET)病理:**chromogranin A與synaptophysin為神經內分泌標記,陽性支持NET診斷**(synaptophysin陽性不能排除);腫瘤染serotonin/substance P陽性不等於必有臨床症候群(需荷爾蒙活性與肝轉移);**分級(Ki-67):G1/G2為well/moderately分化,G3為poorly分化(non-NET型neuroendocrine carcinoma)**,故選項D分級對應有誤。本題答A正確。",
    "op": {
     "A": "正解。chromogranin A助診斷NET。",
     "B": "synaptophysin陽性不能排除NET(反為支持)。",
@@ -11829,8 +11829,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "服藥『4小時後』才就醫，用活性碳洗胃效果差(活性碳須於攝入早期~1–2小時內);此處最不適當。",
-   "bg": "acetaminophen過量(20×500mg=10g)處置:測血中濃度(4小時後)對照nomogram、給N-acetylcysteine、追肝功能。**活性碳僅在攝入後早期(約1–2小時內)有效,本例已4小時,用活性碳『洗胃』效果差且非首選**(本題答B最不適當)。",
+   "q": "服藥4小時後才就醫，用活性碳洗胃效果差(活性碳須於攝入早期~1–2小時內);此處最不適當。",
+   "bg": "acetaminophen過量(20×500mg=10g)處置:測血中濃度(4小時後)對照nomogram、給N-acetylcysteine、追肝功能。**活性碳僅在攝入後早期(約1–2小時內)有效,本例已4小時,用活性碳洗胃效果差且非首選**(本題答B最不適當)。",
    "op": {
     "A": "給N-acetylcysteine，適當。",
     "B": "正解(最不適當)。4小時後用活性碳洗胃效果差。",
@@ -12367,7 +12367,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "因N-亞硝基二甲胺(NDMA)污染被下架的是『ranitidine』，非cimetidine;選項說cimetidine被下架故錯。",
+   "q": "因N-亞硝基二甲胺(NDMA)污染被下架的是ranitidine，非cimetidine;選項說cimetidine被下架故錯。",
    "bg": "消化性潰瘍用藥:sucralfate一天4次保護潰瘍面;**因NDMA污染而下架停用的是ranitidine(2020),非cimetidine**(故選項B錯);PPI會回饋性使血中gastrin上升;長期PPI致腹瀉須懷疑C. difficile。",
    "op": {
     "A": "sucralfate一天4次每次1g，正確。",
@@ -12406,7 +12406,7 @@
   "img": [],
   "ex": {
    "q": "抗病毒使慢性HBV感染者HBV DNA持續陰性，可降低肝癌(HCC)發生風險。",
-   "bg": "HCC預防:**WHO建議『全面』新生兒接種HBV疫苗(非僅高危成人);兒童/新生兒更應接種**;**有效抗病毒使HBV DNA持續陰轉可降低HCC風險**(本題答B);**HCV達SVR可大幅降低但肝硬化者HCC風險『不能完全消除』,仍需監測**。",
+   "bg": "HCC預防:**WHO建議全面新生兒接種HBV疫苗(非僅高危成人);兒童/新生兒更應接種**;**有效抗病毒使HBV DNA持續陰轉可降低HCC風險**(本題答B);**HCV達SVR可大幅降低但肝硬化者HCC風險不能完全消除,仍需監測**。",
    "op": {
     "A": "WHO建議普及接種(非僅高危成人)。",
     "B": "正解。抗病毒使HBV DNA陰轉可降HCC風險。",
@@ -12443,7 +12443,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "維生素B12缺乏造成的是神經病變/巨球性貧血，不是『抽搐(tetany)』;tetany是低血鈣表現，配對錯誤。",
+   "q": "維生素B12缺乏造成的是神經病變/巨球性貧血，不是抽搐(tetany);tetany是低血鈣表現，配對錯誤。",
    "bg": "吸收不良-臨床配對:鐵缺乏→貧血;維生素K缺乏→瘀斑/出血;必需脂肪酸缺乏→皮膚炎;**維生素B12缺乏→巨球性貧血與神經病變(亞急性合併退化),非抽搐;抽搐(tetany)為低血鈣/低血鎂表現**。故選項D配對錯誤。",
    "op": {
     "A": "鐵-貧血，正確。",
@@ -12481,8 +12481,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性胰臟炎原因為膽石、酒精、高三酸甘油酯、高血鈣、胰腺癌等;『低血鈣』不是病因(低血鈣是胰臟炎的『結果』)。",
-   "bg": "急性胰臟炎病因:膽石、酒精、**高三酸甘油酯(>1000)**、**高血鈣**、ERCP後、藥物、外傷、胰腺癌阻塞等;**低血鈣是嚴重胰臟炎的『併發/預後不良指標』而非病因**(脂肪皂化耗鈣)。本題答B。",
+   "q": "急性胰臟炎原因為膽石、酒精、高三酸甘油酯、高血鈣、胰腺癌等;低血鈣不是病因(低血鈣是胰臟炎的結果)。",
+   "bg": "急性胰臟炎病因:膽石、酒精、**高三酸甘油酯(>1000)**、**高血鈣**、ERCP後、藥物、外傷、胰腺癌阻塞等;**低血鈣是嚴重胰臟炎的併發/預後不良指標而非病因**(脂肪皂化耗鈣)。本題答B。",
    "op": {
     "A": "高三酸甘油酯為病因。",
     "B": "正解。低血鈣非病因(是結果)。",
@@ -12519,8 +12519,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "中毒性巨結腸定義為『橫結腸/全結腸』直徑>6cm併毒性表現，非『左側結腸』>6cm。",
-   "bg": "IBD臨床:闌尾切除對UC具保護;1/3克隆氏症有肛周疾病(瘻管、肛裂、膿瘍、狹窄);**中毒性巨結腸多見於重症UC,定義為結腸(典型橫結腸/全結腸)擴張>6cm且失去結腸袋＋全身毒性**(選項說『左側結腸>6cm』描述不當,故C錯);CD可發生腹腔/骨盆膿腫、穿孔致腹膜炎。",
+   "q": "中毒性巨結腸定義為橫結腸/全結腸直徑>6cm併毒性表現，非左側結腸>6cm。",
+   "bg": "IBD臨床:闌尾切除對UC具保護;1/3克隆氏症有肛周疾病(瘻管、肛裂、膿瘍、狹窄);**中毒性巨結腸多見於重症UC,定義為結腸(典型橫結腸/全結腸)擴張>6cm且失去結腸袋＋全身毒性**(選項說左側結腸>6cm描述不當,故C錯);CD可發生腹腔/骨盆膿腫、穿孔致腹膜炎。",
    "op": {
     "A": "闌尾切除對UC保護，正確。",
     "B": "1/3 CD有肛周疾病，正確。",
@@ -12595,7 +12595,7 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "急性腸繫膜缺血需積極處置(血管重建/取栓、必要時手術)，『以內科治療優先、儘量避免手術』最不適當。",
+   "q": "急性腸繫膜缺血需積極處置(血管重建/取栓、必要時手術)，以內科治療優先、儘量避免手術最不適當。",
    "bg": "急性腸繫膜缺血:可因動脈栓塞/血栓、靜脈血栓或非阻塞性低灌注;**腹痛與理學不成比例、初期常無反彈痛**;CT血管攝影高敏感;**治療須積極:抗凝、血管內取栓/溶栓或外科血管重建,腸壞死/腹膜炎時剖腹切除,不應一味內科保守拖延**(本題答C最不適當)。",
    "op": {
     "A": "可因動脈血栓引起，正確。",
@@ -12633,8 +12633,8 @@
   "cn": "",
   "img": [],
   "ex": {
-   "q": "Lynch症候群增加的是大腸/子宮內膜等癌風險;與食道癌關係不明顯，『ESCC機率>EAC』敘述最不適當。",
-   "bg": "食道癌兩型:**ESCC(鱗癌)危險因子為菸酒**;**EAC(腺癌)危險因子為慢性GERD、肥胖、Barrett**;EAC中HER2/ERBB2擴增比例較ESCC高。**Lynch症候群與大腸、子宮內膜等相關,與食道癌(尤ESCC)無明確增加關係**,故選項D『Lynch患者ESCC>EAC』最不適當。",
+   "q": "Lynch症候群增加的是大腸/子宮內膜等癌風險;與食道癌關係不明顯，ESCC機率>EAC敘述最不適當。",
+   "bg": "食道癌兩型:**ESCC(鱗癌)危險因子為菸酒**;**EAC(腺癌)危險因子為慢性GERD、肥胖、Barrett**;EAC中HER2/ERBB2擴增比例較ESCC高。**Lynch症候群與大腸、子宮內膜等相關,與食道癌(尤ESCC)無明確增加關係**,故選項DLynch患者ESCC>EAC最不適當。",
    "op": {
     "A": "ESCC危險因子含菸酒，正確。",
     "B": "EAC危險因子含慢性GERD，正確。",
